@@ -1,0 +1,7 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+
+Name: apertium-arg
+Description: Finite-state morphological transducer and constraint grammar for Aragonese 
+Version: 0.1.0

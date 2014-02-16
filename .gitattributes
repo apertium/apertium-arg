@@ -1,0 +1,15 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-arg.arg.acx -text
+/apertium-arg.arg.dix -text
+/apertium-arg.arg.tsx -text
+/apertium-arg.pc.in -text
+/apertium-arg.post-arg.dix -text
+/arg.prob -text svneol=unset#unset
+/autogen.sh -text
+/configure.ac -text
