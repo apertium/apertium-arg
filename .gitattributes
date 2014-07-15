@@ -13,3 +13,4 @@
 /arg.prob -text svneol=unset#unset
 /autogen.sh -text
 /configure.ac -text
+/modes.xml -text svneol=unset#application/xml
