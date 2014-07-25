@@ -38,8 +38,9 @@ $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
 ## Distribution
 ###############################################################################
 EXTRA_DIST=$(BASENAME).$(LANG1).dix \
-	   $(BASENAME).$(LANG1).rlx  \
 	   modes.xml
+
+	   # $(BASENAME).$(LANG1).rlx  
 
 ###############################################################################
 ## Installation stuff
@@ -67,7 +68,8 @@ noinst_DATA=modes/$(LANG1)-morph.mode
 install-data-local:
 	test -d $(DESTDIR)$(apertium_arg_srcdir) || mkdir -p $(DESTDIR)$(apertium_arg_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_arg_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_arg_srcdir)
+
+# $(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_arg_srcdir)
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:
