@@ -8,7 +8,8 @@ LANG1=arg
 BASENAME=apertium-$(LANG1)
 
 TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).autogen.bin \
-	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz 
+	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz
+
 #        $(LANG1).rlx.bin
 
 ###############################################################################
@@ -40,7 +41,7 @@ $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
 EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 	   modes.xml
 
-	   # $(BASENAME).$(LANG1).rlx  
+# $(BASENAME).$(LANG1).rlx  
 
 ###############################################################################
 ## Installation stuff
