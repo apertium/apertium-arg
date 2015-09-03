@@ -1049,7 +1049,13 @@
           <r>a<b/></r>
         </p>
       </e>
-
+      <e>
+        <p>
+          <l></l>
+          <r>a</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
  <!--     <e>         jp: not in standard
         <p>
           <l><b/><a/>e</l>
