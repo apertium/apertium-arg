@@ -155,22 +155,23 @@
       <re>[a-z.]+@[a-z.]+</re>
       <p>
         <l></l>
-        <r><s n="num"/></r>
+        <r><s n="web"/></r>
       </p>
     </e>
 
-
+    
     </pardef>
     <pardef n="urls">
     <e>
-      <re>(((www.)|(http://))[a-z0-9\-]+([.][a-z]+)+(/[a-z0-9_]+)*([.][a-z]+)*)</re>
+<!--      <re>(www.|http://|https://|ftp://)[áéíóúàèìòùäëïöüñça-z0-9\-./]+[áéíóúàèìòùäëïöüñça-z0-9/]</re> -->
+      <re>(http://|https://|ftp://)?[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*(.[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*)*(.[a-z][a-z]|.aero|.asia|.biz|.cat|.com|.coop|.edu|.gov|.info|.int|.jobs|.mil|.mobi|.museum|.name|.net|.org|.pro|.tel|.travel)(/([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*/)*([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*)?)?</re>
       <p>
         <l></l>
-        <r><s n="num"/></r>
+        <r><s n="web"/></r>
       </p>
     </e>
 
-
+  
     </pardef>
     <pardef n="ip">
     <e>
@@ -1232,61 +1233,61 @@
       <e r="LR">
       <p>
         <l>-hue</l>
-        <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
+        <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r>
       </p>
     </e>
         <e r="LR">
       <p>
         <l>-güe</l>
-        <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
+        <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
         <l>-ue</l>
-        <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
+        <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
         <l>-hu</l>
-        <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
+        <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
         <l>-u</l>
-        <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
+        <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r>
       </p>
     </e>
       <e r="LR">
       <p>
         <l>'hue</l>
-        <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
+        <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r>
       </p>
     </e>
         <e r="LR">
       <p>
         <l>'güe</l>
-        <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
+        <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
         <l>'ue</l>
-        <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
+        <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
         <l>'hu</l>
-        <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
+        <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
         <l>'u</l>
-        <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
+        <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r>
       </p>
     </e>    
    </pardef>    
