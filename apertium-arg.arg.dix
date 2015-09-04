@@ -41550,6 +41550,7 @@
     <e lm="control"><i>control</i><par n="libro__n"/></e>
     <e lm="libro"><par n="/l_ll__var"/><i>ibro</i><par n="libro__n"/></e>
     <e lm="consello"><i>consello</i><par n="libro__n"/></e>
+    <e lm="proceso"><i>proceso</i><par n="libro__n"/></e>
     <e lm="esquiruelo"><i>esquiruelo</i><par n="libro__n"/></e>
     <e lm="esquiruelo" r="LR"><p><l>equirgüelo</l><r>esquiruelo</r></p><par n="libro__n"/></e>
     <e lm="esquiruelo" r="LR"><p><l>esquirol</l><r>esquiruelo</r></p><par n="libro__n"/></e>
@@ -49492,7 +49493,7 @@
     <e lm="Baix Segura"><i>Baix<b/>Segura</i><par n="Afganistán__np"/></e>
     <e lm="Baix Vinalopó"><i>Baix<b/>Vinalopó</i><par n="Afganistán__np"/></e>
     <e lm="Balaguer"><i>Balaguer</i><par n="Afganistán__np"/></e>
-    <e lm="Baleares"><i>Baleares</i><par n="Afganistán__np"/></e>
+    <e lm="Balears"><i>Balears</i><par n="Afganistán__np"/></e>
     <e lm="Baltimore"><i>Baltimore</i><par n="Afganistán__np"/></e>
     <e lm="Bamako"><i>Bamako</i><par n="Afganistán__np"/></e>
     <e lm="Bangkok"><i>Bangkok</i><par n="Afganistán__np"/></e>
@@ -50155,7 +50156,7 @@
     <e lm="Isèra"><i>Isèra</i><par n="Afganistán__np"/></e>
     <e lm="Isla de Man"><i>Isla<b/>de<b/>Man</i><par n="Afganistán__np"/></e>
     <e lm="Islandia"><i>Islandia</i><par n="Afganistán__np"/></e>
-    <e lm="Islas Baleares"><i>Islas<b/>Baleares</i><par n="Afganistán__np"/></e>
+    <e lm="Islas Balears"><i>Islas<b/>Balears</i><par n="Afganistán__np"/></e>
     <e lm="Islas Caimán"><i>Islas<b/>Caimán</i><par n="Afganistán__np"/></e>
     <e lm="Islas Canarias"><i>Islas<b/>Canarias</i><par n="Afganistán__np"/></e>
     <e lm="Islas Cook"><i>Islas<b/>Cook</i><par n="Afganistán__np"/></e>
@@ -61437,6 +61438,7 @@
     <e lm="abrevar"><i>abrev</i><par n="cant/ar__vblex"/></e>
     <e lm="accelerar"><i>acceler</i><par n="cant/ar__vblex"/></e>
     <e lm="accelerar" r="LR"><p><l>aceler</l><r>acceler</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="amerar"><i>amer</i><par n="cant/ar__vblex"/></e>
     <e lm="consellar"><i>consell</i><par n="cant/ar__vblex"/></e>
     <e lm="consellar" r="LR"><p><l>aconsell</l><r>consell</r></p><par n="cant/ar__vblex"/></e>
     <e lm="baleyar"><i>baley</i><par n="cant/ar__vblex"/></e>
