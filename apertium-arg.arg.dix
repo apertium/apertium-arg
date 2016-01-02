@@ -41583,8 +41583,9 @@
     <e lm="puerta"><i>puerta</i><par n="luenga__n"/></e>
     <e lm="biera"><i>biera</i><par n="luenga__n"/></e>
     <e lm="enruena"><i>enruena</i><par n="luenga__n"/></e>
+    <e lm="romance"><i>romance</i><par n="social__adj"/></e>
       
-    <e lm="limite"><i>limite</i><par n="libro__n"/></e>  
+    <e lm="limite"><i>limite</i><par n="libro__n"/></e>
     <e lm="frase"><i>frase</i><par n="luenga__n"/></e>      
     <e lm="tenient"><i>teni</i><par n="ach/ent__n"/></e>
     <e lm="resident"><i>resid</i><par n="ach/ent__n"/></e>
@@ -45114,10 +45115,12 @@
     
     <e lm="a. de C."><i>a.<b/>de<b/>C.</i><par n="agora__adv"/></e>
     <e lm="a. de C." r="LR"><p><l>a.<b/>C.</l><r>a.<b/>de<b/>C.</r></p><par n="agora__adv"/></e>    
-    <e lm="a. de C." r="LR"><p><l>a.C.</l><r>a.<b/>de<b/>C.</r></p><par n="agora__adv"/></e>    
+    <e lm="a. de C." r="LR"><p><l>a.C.</l><r>a.<b/>de<b/>C.</r></p><par n="agora__adv"/></e>
+    <e lm="a. de C." r="LR"><p><l>aC</l><r>a.<b/>de<b/>C.</r></p><par n="agora__adv"/></e>    
     <e lm="d. de C."><i>d.<b/>de<b/>C.</i><par n="agora__adv"/></e>
     <e lm="d. de C." r="LR"><p><l>d.<b/>C.</l><r>d.<b/>de<b/>C.</r></p><par n="agora__adv"/></e>    
-    <e lm="d. de C." r="LR"><p><l>d.C.</l><r>d.<b/>de<b/>C.</r></p><par n="agora__adv"/></e>        
+    <e lm="d. de C." r="LR"><p><l>d.C.</l><r>d.<b/>de<b/>C.</r></p><par n="agora__adv"/></e> 
+    <e lm="d. de C." r="LR"><p><l>dC</l><r>d.<b/>de<b/>C.</r></p><par n="agora__adv"/></e>    
     <e lm="N.B."><i>N.B.</i><par n="agora__adv"/></e>
     <e lm="N.B." r="LR"><p><l>n.<b/>b.</l><r>N.B.</r></p><par n="agora__adv"/></e>        
     <e lm="N.B." r="LR"><p><l>n.b.</l><r>N.B.</r></p><par n="agora__adv"/></e>        
@@ -49358,6 +49361,18 @@
     <e lm="este"><i>este</i><par n="atletismo__n"/></e>
     <e lm="sud"><i>sud</i><par n="atletismo__n"/></e>
     <e lm="sud" r="LR"><p><l>sur</l><r>sud</r></p><par n="atletismo__n"/></e>
+    <e lm="sudeste"><i>sudeste</i><par n="atletismo__n"/></e>
+    <e lm="sudeste" r="LR"><p><l>sureste</l><r>sudeste</r></p><par n="atletismo__n"/></e>
+    <e lm="sudueste"><i>sudueste</i><par n="atletismo__n"/></e>
+    <e lm="sudueste" r="LR"><p><l>surueste</l><r>sudueste</r></p><par n="atletismo__n"/></e>
+    <e lm="sudueste" r="LR"><p><l>suroeste</l><r>sudueste</r></p><par n="atletismo__n"/></e>
+    <e lm="sudueste" r="LR"><p><l>sudueste</l><r>sudueste</r></p><par n="atletismo__n"/></e>
+    <e lm="nordeste"><i>nordeste</i><par n="atletismo__n"/></e>
+    <e lm="nordeste" r="LR"><p><l>noreste</l><r>nordeste</r></p><par n="atletismo__n"/></e>
+    <e lm="nordueste"><i>nordueste</i><par n="atletismo__n"/></e>
+    <e lm="nordueste" r="LR"><p><l>norueste</l><r>nordueste</r></p><par n="atletismo__n"/></e>
+    <e lm="nordueste" r="LR"><p><l>nordoeste</l><r>nordueste</r></p><par n="atletismo__n"/></e>
+    <e lm="nordueste" r="LR"><p><l>noroeste</l><r>nordueste</r></p><par n="atletismo__n"/></e>
     <e lm="eix."><i>eix.</i><par n="atletismo__n"/></e>
     <e lm="eix." r="LR"><p><l>ex.</l><r>eix.</r></p><par n="atletismo__n"/></e>
     <e lm="abismo"><i>abismo</i><par n="libro__n"/></e>
@@ -51059,7 +51074,7 @@
     <e lm="Pireneu" r="LR"><p><l>Pirineo</l><r>Pireneu</r></p><par n="Afganistán__np"/></e>
     <e lm="Pireneu" r="LR"><p><l>Perineo</l><r>Pireneu</r></p><par n="Afganistán__np"/></e>
     <e lm="Pireneu" r="LR"><p><l>Pireneo</l><r>Pireneu</r></p><par n="Afganistán__np"/></e>
-    <e lm="Pirineus"><i>Pirineus</i><par n="Afganistán__np"/></e>
+    <e lm="Pirineus"><i>Pireneus</i><par n="Afganistán__np"/></e>
     <e lm="Pireneu" r="LR"><p><l>Pirineus</l><r>Pireneus</r></p><par n="Afganistán__np"/></e>
     <e lm="Pireneu" r="LR"><p><l>Perineus</l><r>Pireneus</r></p><par n="Afganistán__np"/></e>
     <e lm="Pireneu" r="LR"><p><l>Pirineos</l><r>Pireneus</r></p><par n="Afganistán__np"/></e>
@@ -56829,6 +56844,8 @@
     <e lm="val" r="LR"><p><l>vall</l><r>val</r></p><par n="luenga__n"/></e>
     <e lm="val" r="LR"><p><l>bal</l><r>val</r></p><par n="luenga__n"/></e>
     <e lm="val" r="LR"><p><l>ball</l><r>val</r></p><par n="luenga__n"/></e>
+    <e lm="val" r="LR"><p><l>valle</l><r>val</r></p><par n="luenga__n"/></e>
+    <e lm="val" r="LR"><p><l>balle</l><r>val</r></p><par n="luenga__n"/></e>
     <e lm="tipo"><i>tipo</i><par n="libro__n"/></e>
     <e lm="castiello"><i>castiello</i><par n="libro__n"/></e>
     <e lm="aniello"><i>aniello</i><par n="libro__n"/></e>
@@ -61665,6 +61682,8 @@
     <e lm="endolzar"><i>endol</i><par n="ca/zar__vblex"/></e>
     <e lm="trepuzar"><i>trepu</i><par n="ca/zar__vblex"/></e>
     <e lm="cruzar"><i>cru</i><par n="ca/zar__vblex"/></e>
+    <e lm="trascruzar"><i>trascru</i><par n="ca/zar__vblex"/></e>
+    <e lm="trascruzar" r="LR"><p><l>trescru</l><r>trascru</r></p><par n="ca/zar__vblex"/></e>
     <e lm="cruciar"><i>cruc</i><par n="camb/iar__vblex"/></e>
     <e lm="entrecruzar"><i>entrecru</i><par n="ca/zar__vblex"/></e>
     <e lm="entrecruciar"><i>entrecruc</i><par n="camb/iar__vblex"/></e>
@@ -64265,6 +64284,7 @@
     <e lm="estufa"><i>estufa</i><par n="luenga__n"/></e>
     <e lm="etapa"><i>etapa</i><par n="luenga__n"/></e>
     <e lm="etcetera"><i>etcetera</i><par n="libro__n"/></e>
+    <e lm="etcetera" r="LR"><p><l>ecetra</l><r>etcetera</r></p><par n="luenga__n"/></e>    
     <e lm="etiqueta"><i>etiqueta</i><par n="luenga__n"/></e>
     <e lm="evidencia"><i>evidencia</i><par n="luenga__n"/></e>
     <e lm="excavadora"><i>excavadora</i><par n="luenga__n"/></e>
@@ -65260,6 +65280,10 @@
     <e lm="conquiesta"><i>conquiesta</i><par n="luenga__n"/></e>
     <e lm="conquiesta" r="LR"><p><l>conquista</l><r>conquiesta</r></p><par n="luenga__n"/></e>            
     <e lm="colonia"><i>colonia</i><par n="luenga__n"/></e>
+    <e lm="dialecto"><i>dialecto</i><par n="libro__n"/></e>
+    <e lm="districto"><i>districto</i><par n="libro__n"/></e>
+    <e lm="districto" r="LR"><p><l>distrito</l><r>districto</r></p><par n="libro__n"/></e>
+    <e lm="districto" r="LR"><p><l>destrito</l><r>districto</r></p><par n="libro__n"/></e>
     <e lm="renta"><i>renta</i><par n="luenga__n"/></e>
     <e lm="renda"><i>renda</i><par n="luenga__n"/></e>
     <e lm="rento"><i>rento</i><par n="libro__n"/></e>
