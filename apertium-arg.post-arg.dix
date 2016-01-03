@@ -878,11 +878,73 @@
           <r>ta<b/></r>
         </p>
       </e>
+</pardef>
+
+   <pardef n="pa"> <!-- pa which makes, pa o, pa la, pa os, pa las-->
+      <e>
+        <p>
+          <l><b/><a/>a<b/></l>
+          <r>pa<b/>la<b/></r>
+        </p>
+      </e>
+      <e>
+      <p>
+          <l><b/><a/>o<b/></l>
+          <r>pa<b/>o<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>pa<b/>l'</r>
+        </p>
+        <par n="vocals_apost" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>pa<b/>o<b/></r>
+        </p>
+        <par n="consonant" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>pa<b/>o<b/></r>
+        </p>
+        <par n="vocals_no_apost_o" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>a<b/></l>
+          <r>pa<b/>l'</r>
+        </p>
+        <par n="vocals_apost_a" />
+      </e>      
+      <e>
+        <p>
+          <l><b/>as<b/></l>
+          <r>pa<b/>las<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>os<b/></l>
+          <r>pa<b/>os<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/></l>
+          <r>pa<b/></r>
+        </p>
+      </e>
+
 
  <!--     <e>         jp: not in standard
         <p>
           <l><b/><a/>e</l>
-          <r>ta</r>
+          <r>pa</r>
         </p>
         <par n="contrac"/>
       </e>   -->
@@ -890,23 +952,23 @@
       <e>
         <p>
           <l><b/>el<b/></l>
-          <r>ta'l<b/></r>
+          <r>pa'l<b/></r>
         </p>
       </e>
       <e>
         <p>
           <l><b/>els<b/></l>
-          <r>ta'ls<b/></r>
+          <r>pa'ls<b/></r>
         </p>
       </e>
       <e>
         <p>
           <l><b/>es<b/></l>
-          <r>ta's<b/></r>
+          <r>pa's<b/></r>
         </p>
       </e>
 -->
-    </pardef>
+</pardef>
 
 <pardef n="enta"> 
       <e>
@@ -1414,6 +1476,13 @@
       </e>
       <e>
         <p>
+          <l><b/><a/>pa</l>
+          <r>no<b/></r>
+        </p>
+        <par n="pa"/>
+      </e>
+      <e>
+        <p>
           <l><b/><a/>a2</l>
           <r>no<b/></r>
         </p>
@@ -1527,6 +1596,13 @@
           <r/>
         </p>
         <par n="enta"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>pa</l>
+          <r/>
+        </p>
+        <par n="pa"/>
       </e>
         <e>
         <p>
