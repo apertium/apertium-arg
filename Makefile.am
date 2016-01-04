@@ -20,7 +20,7 @@ $(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix
 	lt-comp rl $< $@
 
 $(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx
-	lt-comp lr $(BASENAME).$(LANG1).dix $@ $(BASENAME).$(LANG1).acx 
+	lt-comp lr $(BASENAME).$(LANG1).dix $@ $(BASENAME).$(LANG1).acx
 
 $(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 	lt-comp lr $< $@
@@ -32,7 +32,7 @@ $(LANG1).automorf.att.gz: $(LANG1).automorf.bin
 	lt-print $< | gzip -9 -c > $@
 
 ###############################################################################
-## Disambiguation rules 
+## Disambiguation rules
 ###############################################################################
 
 $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
@@ -41,10 +41,13 @@ $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
 ###############################################################################
 ## Distribution
 ###############################################################################
-EXTRA_DIST=$(BASENAME).$(LANG1).dix \
+EXTRA_DIST=$(BASENAME).$(LANG1).dix		\
+	   $(BASENAME).post-$(LANG1).dix	\
+	   $(BASENAME).$(LANG1).acx		\
+           $(LANG1).prob			\
 	   modes.xml
 
-# $(BASENAME).$(LANG1).rlx  
+# $(BASENAME).$(LANG1).rlx
 
 ###############################################################################
 ## Installation stuff
@@ -56,7 +59,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 apertium_argdir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_arg_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_arg_DATA=$(TARGETS_COMMON)
+apertium_arg_DATA=$(TARGETS_COMMON) $(LANG1).prob
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc

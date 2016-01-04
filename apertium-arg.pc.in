@@ -1,7 +1,9 @@
 prefix=@prefix@
-exec_prefix=@exec_prefix@
+exec_prefix=${prefix}
 libdir=@libdir@
+dir=@libdir@/apertium/apertium-arg
+srcdir=@datarootdir@/apertium/apertium-arg
 
 Name: apertium-arg
-Description: Finite-state morphological transducer and constraint grammar for Aragonese 
-Version: 0.1.0
+Description: Finite-state morphological transducer and constraint grammar for Aragonese
+Version: @VERSION@
