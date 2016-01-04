@@ -3,7 +3,7 @@
 
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Aragonese], [0.1.0], [francis.tyers@gmail.com], [apertium-arg], [http://wiki.apertium.org/wiki/Apertium-arg])
+AC_INIT([Apertium Aragonese], [0.1.1], [francis.tyers@gmail.com], [apertium-arg], [http://wiki.apertium.org/wiki/Apertium-arg])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
