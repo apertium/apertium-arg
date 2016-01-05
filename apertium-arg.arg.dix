@@ -41223,6 +41223,7 @@
     <e lm="poco"><i>poco</i><par n="libro__n"/></e>
     <e lm="pleno"><i>pleno</i><par n="libro__n"/></e>
     <e lm="turno"><i>turno</i><par n="libro__n"/></e>
+    <e lm="miedo"><i>miedo</i><par n="libro__n"/></e>
     <e lm="mobil"><i>mobil</i><par n="libro__n"/></e>
     <e lm="mobil" r="LR"><p><l>móbil</l><r>mobil</r></p><par n="libro__n"/></e>
     <e lm="mobil" r="LR"><p><l>móvil</l><r>mobil</r></p><par n="libro__n"/></e>
@@ -51454,7 +51455,6 @@
     <e lm="Togo"><i>Togo</i><par n="Afganistán__np"/></e>
     <e lm="Tokelau"><i>Tokelau</i><par n="Afganistán__np"/></e>
     <e lm="Chapón"><i>Chapón</i><par n="Afganistán__np"/></e>
-    <e lm="Japón" r="LR"><i>Japón</i><par n="Afganistán__np"/></e>
     <e lm="Tokio"><i>Tokio</i><par n="Afganistán__np"/></e>
     <e lm="Tokyo" r="LR"><i>Tokyo</i><par n="Afganistán__np"/></e>
     <e lm="Toledo"><i>Toledo</i><par n="Afganistán__np"/></e>
@@ -55967,9 +55967,8 @@
     <e lm="radical"><i>radical</i><par n="social__adj"/></e>
     <e lm="razonable"><i>razonable</i><par n="social__adj"/></e>
     <e lm="real"><i>real</i><par n="social__adj"/></e>
-    <e lm="reyal"><i>reyal</i><par n="social__adj"/></e>
+    <e lm="reyal"><i>reyal</i><par n="social__adj_adv"/></e>
     <e lm="real"><i>real</i><par n="social__adj_adv"/></e>
-    <e lm="real" r="LR"><p><l>reyal</l><r>real</r></p><par n="social__adj_adv"/></e>
     <e lm="realista"><i>realista</i><par n="social__adj"/></e>
     <e lm="rebelde"><i>rebelde</i><par n="social__adj"/></e>
     <e lm="recient"><i>reci</i><par n="difer/ent__adj"/></e>
@@ -59130,7 +59129,7 @@
     <e lm="fatidico"><i>fatidic</i><par n="academic/o__adj_adv"/></e>
     <e lm="favorable"><i>favorable</i><par n="social__adj_adv"/></e>
     <e lm="feble"><i>feble</i><par n="social__adj_adv"/></e>
-    <e lm="debil" r="LR"><i>debil</i><par n="social__adj_adv"/></e>
+    <e lm="debil"><i>debil</i><par n="social__adj_adv"/></e>
     <e lm="febril"><i>febril</i><par n="social__adj_adv"/></e>
     <e lm="fecal"><i>fecal</i><par n="social__adj_adv"/></e>
     <e lm="fecundo"><i>fecund</i><par n="academic/o__adj_adv"/></e>
@@ -61396,6 +61395,7 @@
     <e lm="mai"><i>mai</i><par n="luenga__n"/></e>
     <e lm="mai" r="LR"><p><l>madri</l><r>mai</r></p><par n="luenga__n"/></e>
     <e lm="mai" r="LR"><p><l>mare</l><r>mai</r></p><par n="luenga__n"/></e>
+    <e lm="anticipar"><i>anticip</i><par n="cant/ar__vblex"/></e>
     <e lm="abortar"><i>abort</i><par n="cant/ar__vblex"/></e>
     <e lm="abortar" r="LR"><p><l>albort</l><r>abort</r></p><par n="cant/ar__vblex"/></e>    
     <e lm="abortar" r="LR"><p><l>abrot</l><r>abort</r></p><par n="cant/ar__vblex"/></e>    
@@ -62398,6 +62398,7 @@
     <e lm="extrayer" r="LR"><p><l>estra</l><r>extra</r></p><par n="ca/yer__vblex"/></e>
     <e lm="poseyer"><i>pos</i><par n="l/eyer__vblex"/></e>
     <e lm="preveyer"><i>prev</i><par n="v/eyer__vblex"/></e>
+    <e lm="entreveyer"><i>entrev</i><par n="v/eyer__vblex"/></e>
     <e lm="recayer"><i>reca</i><par n="ca/yer__vblex"/></e>
     <e lm="releyer"><i>rel</i><par n="l/eyer__vblex"/></e>
     
