@@ -40871,9 +40871,9 @@
     <e lm="fraterno"><i>fratern</i><par n="academic/o__adj"/></e>
     <e lm="fresco"><i>fresc</i><par n="academic/o__adj"/></e>
     <e lm="fricativo"><i>fricati</i><par n="cursi/vo__adj"/></e>
-    <e lm="frío"><i>frí</i><par n="alt/o__adj_adv"/></e>
-    <e lm="frío" r="LR"><p><l>fred</l><r>frí</r></p><par n="alt/o__adj_adv"/></e>    
-    <e lm="frío" r="LR"><p><l>fri</l><r>frí</r></p><par n="alt/o__adj_adv"/></e>
+    <e lm="fredo"><i>fred</i><par n="alt/o__adj_adv"/></e>
+    <e lm="fredo" r="LR"><p><l>frí</l><r>fred</r></p><par n="alt/o__adj_adv"/></e>    
+    <e lm="fredo" r="LR"><p><l>fri</l><r>fred</r></p><par n="alt/o__adj_adv"/></e>
     <e lm="frito"><i>frit</i><par n="alt/o__adj"/></e>
     <e lm="fronterizo"><i>fronteriz</i><par n="academic/o__adj"/></e>
     <e lm="funerario"><i>funerari</i><par n="academic/o__adj"/></e>
@@ -45045,7 +45045,6 @@
     <e lm="primero"><i>primero</i><par n="agora__adv"/></e>    
     <e lm="en primeras"><i>en<b/>primeras</i><par n="agora__adv"/></e>    
     <e lm="en primerías"><i>en<b/>primerías</i><par n="agora__adv"/></e>    
-    <e r="LR" lm="siquiera"><i>siquiera</i><par n="agora__adv"/></e>
     <e lm="millor"><i>millor</i><par n="agora__adv"/></e>
     <e lm="pior"><i>pior</i><par n="agora__adv"/></e>
     <e lm="pior" r="LR"><p><l>peyor</l><r>pior</r></p><par n="agora__adv"/></e>    
@@ -61199,7 +61198,7 @@
     <e lm="veraz"><i>vera</i><par n="efica/z__adj_adv"/></e>
     <e lm="verbal"><i>verbal</i><par n="social__adj_adv"/></e>
     <e lm="verdoso"><i>verdos</i><par n="academic/o__adj_adv"/></e>
-    <e lm="verdosenco" r="LR"><i>verdosenc</i><par n="academic/o__adj_adv"/></e>
+    <e lm="verdosenco"><i>verdosenc</i><par n="academic/o__adj_adv"/></e>
     <e lm="vergonyant"><i>vergony</i><par n="degrad/ant__adj_adv"/></e>
     <e lm="vergüenyoso"><i>vergüenyos</i><par n="alt/o__adj_adv"/></e>
     <e lm="vergüenyoso" r="LR"><p><l>vergonyos</l><r>vergüenyos</r></p><par n="alt/o__adj_adv"/></e>
