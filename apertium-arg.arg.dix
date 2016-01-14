@@ -32922,7 +32922,7 @@
     <e r="LR">
       <p>
         <l>isis</l>
-        <r>ís<s n="n"/><s n="f"/><s n="sp"/></r>
+        <r>ís<s n="n"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -36970,14 +36970,14 @@
         <r><s n="n"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
-
+<!--
     <e r="LR">
       <p>
         <l>s</l>
         <r><s n="n"/><s n="f"/><s n="sp"/></r>
       </p>
     </e>
-
+-->
     </pardef>
 
     <pardef n="parentesi__n">
@@ -36995,14 +36995,14 @@
         <r><s n="n"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
-
+<!--
     <e r="LR">
       <p>
         <l>s</l>
         <r><s n="n"/><s n="m"/><s n="sp"/></r>
       </p>
     </e>
-
+-->
     </pardef>
 
     <pardef n="capi/ella__n">
@@ -41502,6 +41502,7 @@
     <e lm="mes"><i>mes</i><par n="país__n"/></e>
     <e lm="congresista"><i>congresista</i><par n="accionista__n"/></e>
     <e lm="canalla"><i>canalla</i><par n="accionista__n"/></e>
+    <e lm="canalla"><i>canalla</i><par n="quaresma__n"/></e>
     <e lm="lana"><i>lana</i><par n="luenga__n"/></e>
     <e lm="esfensa"><i>esfensa</i><par n="luenga__n"/></e>
     <e lm="esfensa" r="LR"><p><l>defensa</l><r>esfensa</r></p><par n="luenga__n"/></e>
@@ -44983,10 +44984,14 @@
     <e lm="antes d'ahiere" r="LR"><p><l>antisdayer</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
     <e lm="antes d'ahiere" r="LR"><p><l>antesdayere</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
     <e lm="antes d'ahiere" r="LR"><p><l>antisdayere</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
-    <e lm="antiahier"><i>antiahier</i><par n="agora__adv"/></e>
-    <e lm="antiahier" r="LR"><p><l>antiayer</l><r>antiahier</r></p><par n="agora__adv"/></e>    
-    <e lm="antiahier" r="LR"><p><l>anteahier</l><r>antiahier</r></p><par n="agora__adv"/></e>    
-    <e lm="antiahier" r="LR"><p><l>antiahier</l><r>antiahier</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>antiahier</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>antiayer</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>anteahier</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>anteayer</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>antiayere</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>anteayere</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>antiahiere</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>anteahiere</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
     <e lm="aparte"><i>aparte</i><par n="agora__adv"/></e>
     <e lm="aparte" r="LR"><p><l>aparti</l><r>aparte</r></p><par n="agora__adv"/></e>    
     <e lm="aparte" r="LR"><p><l>apart</l><r>aparte</r></p><par n="agora__adv"/></e>    
@@ -55433,7 +55438,6 @@
     <e lm="culpable"><i>culpable</i><par n="social__adj"/></e>
     <e lm="cultivable"><i>cultivable</i><par n="social__adj"/></e>
     <e lm="cuneiforme"><i>cuneiforme</i><par n="social__adj"/></e>
-    <e lm="feble"><i>feble</i><par n="social__adj"/></e>
     <e lm="decimal"><i>decimal</i><par n="social__adj"/></e>
     <e lm="deceno"><i>dec</i><par n="dec/eno__adj"/></e>
     <e lm="demostrable"><i>demostrable</i><par n="social__adj"/></e>
