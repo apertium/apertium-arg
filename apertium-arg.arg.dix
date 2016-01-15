@@ -45683,7 +45683,7 @@
     <e lm="debaixo"><i>deba</i><par n="/ix_x__var"/><i>o</i><par n="agora__adv"/></e>
     <e lm="dezaga"><i>dezaga</i><par n="agora__adv"/></e>
     <e lm="detrás"><i>detrás</i><par n="agora__adv"/></e>
-    <e lm="detrás"><p><l>etrás</l><r>detrás</r></p><par n="agora__adv"/></e>
+    <e lm="detrás" r="LR"><p><l>etrás</l><r>detrás</r></p><par n="agora__adv"/></e>
     <e lm="derré"><i>derré</i><par n="agora__adv"/></e>
     <e lm="difuera"><i>difuera</i><par n="agora__adv"/></e>
     <e lm="difuera" r="LR"><p><l>defuera</l><r>difuera</r></p><par n="agora__adv"/></e>
