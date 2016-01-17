@@ -3,7 +3,7 @@
 
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Aragonese], [0.1.1], [francis.tyers@gmail.com], [apertium-arg], [http://wiki.apertium.org/wiki/Apertium-arg])
+AC_INIT([Apertium Aragonese], [0.1.2], [francis.tyers@gmail.com], [apertium-arg], [http://wiki.apertium.org/wiki/Apertium-arg])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
@@ -23,9 +23,6 @@ AS_IF([test x$CGCOMP = xfalse], [AC_MSG_ERROR([You don't have cg-comp installed]
 
 AC_PATH_PROG([CGPROC], [cg-proc], [false], [$PATH$PATH_SEPARATOR$with_cg_proc/bin])
 AS_IF([test x$CGPROC = xfalse], [AC_MSG_ERROR([You don't have cg-proc installed])])
-
-AC_PATH_PROG([PKGCONFIG], [pkg-config], [false], [$PATH$PATH_SEPARATOR$with_pkg_config/bin])
-AS_IF([test x$PKGCONFIG = xfalse], [AC_MSG_ERROR([You don't have pkg-config installed])])
 
 AP_MKINCLUDE
 
