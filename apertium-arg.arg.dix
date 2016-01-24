@@ -44502,8 +44502,8 @@
     <e lm="por meyo de" r="LR"><par n="/por__var"/><p><l><b/>medio<b/></l><r><b/>meyo<b/></r></p><par n="contde__pr"/></e>
     <e lm="por intermeyo de"><par n="/por__var"/><i><b/>intermeyo<b/></i><par n="contde__pr"/></e>
     <e lm="por intermeyo de" r="LR"><par n="/por__var"/><p><l><b/>intermedio<b/></l><r><b/>intermeyo<b/></r></p><par n="contde__pr"/></e>    
-    <e lm="por baixo de"><par n="/por__var"/><i><b/>ba</i><par n="/ix_x__var"/><i>o<b/></i><par n="contde__pr"/></e>
-    <e lm="por debaixo de" r="LR"><par n="/por__var"/><p><l><b/>deba</l><r><b/>ba</r></p><par n="/ix_x__var"/><i>o<b/></i><par n="contde__pr"/></e>
+    <e lm="por debaixo de"><par n="/por__var"/><i><b/>deba</i><par n="/ix_x__var"/><i>o<b/></i><par n="contde__pr"/></e>
+    <e lm="por debaixo de" r="LR"><par n="/por__var"/><p><l><b/>ba</l><r><b/>deba</r></p><par n="/ix_x__var"/><i>o<b/></i><par n="contde__pr"/></e>
     <e lm="por alto de"><par n="/por__var"/><i><b/>alto<b/></i><par n="contde__pr"/></e>
     <e lm="por dencima de" r="LR"><par n="/por__var"/><p><l><b/>dencima<b/></l><r><b/>alto<b/></r></p><par n="contde__pr"/></e>
     <e lm="antes de"><i>antes<b/></i><par n="contde__pr"/></e>
@@ -44871,6 +44871,7 @@
   <e lm="a l'arreu"><par n="/a_á__var"/><i><b/>l'arreu</i><par n="agora__adv"/></e>
   <e lm="a l'arreo" r="LR"><par n="/a_á__var"/><p><l><b/>l'arreo</l><r><b/>l'arreu</r></p><par n="agora__adv"/></e>
   <e lm="a lo menos"><par n="/a_á__var"/><i><b/>lo<b/>menos</i><par n="agora__adv"/></e>
+  <e lm="a priori"><par n="/a_á__var"/><i><b/>priori</i><par n="agora__adv"/></e>
   <e lm="con pleno derecho"><i>con<b/>tot<b/>lo<b/>dreito</i><par n="agora__adv"/></e>
   <e lm="con pleno derecho"><p><l>con<b/>tot<b/>el<b/>dreito</l><r>con<b/>tot<b/>lo<b/>dreito</r></p><par n="agora__adv"/></e>
   <e lm="con pleno derecho"><p><l>con<b/>tot<b/>o<b/>dreito</l><r>con<b/>tot<b/>lo<b/>dreito</r></p><par n="agora__adv"/></e>
@@ -45006,7 +45007,9 @@
     <e lm="a bonico" r="LR"><p><l>a<b/>monico</l><r>a<b/>bonico</r></p><par n="agora__adv"/></e>
     <e lm="a bonico" r="LR"><p><l>abonico</l><r>a<b/>bonico</r></p><par n="agora__adv"/></e>
     <e lm="a bonico" r="LR"><p><l>amonico</l><r>a<b/>bonico</r></p><par n="agora__adv"/></e>
-    
+    <e lm="mas bien"><par n="/mas__var"/><i><b/>bien</i><par n="agora__adv"/></e>
+    <e lm="mas bien" r="RL"><par n="/mas__var"/><i><b/>bien</i><par n="porque__cnjadv"/></e>
+    <e lm="si bien" r="RL"><i>si<b/>bien</i><par n="porque__cnjadv"/></e>
     <e lm="alavez"><i>alavez</i><par n="agora__adv"/></e>
     <e lm="alavez" r="LR"><p><l>alabez</l><r>alavez</r></p><par n="agora__adv"/></e>
     <e lm="allora"><i>allora</i><par n="agora__adv"/></e>
@@ -45588,8 +45591,8 @@
     <e lm="cuasi" r="LR"><p><l>casi</l><r>quasi</r></p><par n="bien__preadv"/></e>
     <e lm="tant"><i>tant</i><par n="bien__preadv"/></e>
     <e lm="tant" r="LR"><p><l>tan</l><r>tant</r></p><par n="bien__preadv"/></e>
-    <e lm="a rienda"><i>a<b/>rienda</i><par n="bien__preadv"/></e>
-    <e lm="a rienda" r="LR"><p><l>arrienda</l><r>a<b/>rienda</r></p><par n="bien__preadv"/></e>
+    <e lm="arrienda"><i>arrienda</i><par n="bien__preadv"/></e>
+    <e lm="arrienda" r="LR"><p><l>a<b/>rienda</l><r>arrienda</r></p><par n="bien__preadv"/></e>
     <e lm="a-saber-lo de" r="LR"><i>a-saber-lo<b/>de</i><par n="bien__preadv"/></e>
     <e lm="a-saber-lo de" r="RL"><p><l>a-saber-lo<a/>de</l><r>a-saber-lo de</r></p><par n="bien__preadv"/></e>
     <e lm="a-saber-lo de" r="LR"><p><l>asabelo<b/>de</l><r>a-saber-lo<b/>de</r></p><par n="bien__preadv"/></e>
