@@ -1,7 +1,5 @@
 prefix=@prefix@
 exec_prefix=${prefix}
-libdir=@libdir@
-dir=@libdir@/apertium/apertium-arg
 srcdir=@datarootdir@/apertium/apertium-arg
 
 Name: apertium-arg
