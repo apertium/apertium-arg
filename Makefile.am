@@ -7,29 +7,37 @@ VERSION=0.1.2
 LANG1=arg
 BASENAME=apertium-$(LANG1)
 
-TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).autogen.bin \
-	$(LANG1).autopgen.bin \
-	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
-        $(LANG1).rlx.bin
+TARGETS_COMMON =			\
+	$(LANG1).automorf.bin		\
+	$(LANG1).automorf.att.gz	\
+	$(LANG1).autogen.bin		\
+	$(LANG1).autogen.att.gz		\
+	$(LANG1).autopgen.bin		\
+	$(LANG1).rlx.bin
+
+# This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
+@ap_include@
 
 ###############################################################################
 ## Aragonese transducer
 ###############################################################################
 
-$(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix
-	lt-comp rl $< $@
+$(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix .deps/.d
+	apertium-validate-dictionary $<
+	lt-comp rl $< $@ $(BASENAME).$(LANG1).acx
 
-$(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx
-	lt-comp lr $(BASENAME).$(LANG1).dix $@ $(BASENAME).$(LANG1).acx
-
-$(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
-	lt-comp lr $< $@
+$(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix
+	apertium-validate-dictionary $<
+	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
 
 $(LANG1).autogen.att.gz: $(LANG1).autogen.bin
 	lt-print $< | gzip -9 -c -n > $@
 
 $(LANG1).automorf.att.gz: $(LANG1).automorf.bin
 	lt-print $< | gzip -9 -c -n > $@
+
+$(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
+	lt-comp lr $< $@
 
 ###############################################################################
 ## Disambiguation rules
@@ -42,12 +50,11 @@ $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
 ## Distribution
 ###############################################################################
 EXTRA_DIST=$(BASENAME).$(LANG1).dix		\
-	   $(BASENAME).post-$(LANG1).dix	\
-	   $(BASENAME).$(LANG1).acx		\
-	   $(BASENAME).$(LANG1).rlx             \
-           $(LANG1).prob			\
-	   modes.xml
-
+		$(BASENAME).$(LANG1).acx	\
+		$(BASENAME).$(LANG1).rlx	\
+		$(BASENAME).post-$(LANG1).dix	\
+		$(LANG1).prob			\
+		modes.xml
 
 ###############################################################################
 ## Installation stuff
@@ -74,12 +81,21 @@ noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local: install-modes
 	test -d $(DESTDIR)$(apertium_arg_srcdir) || mkdir -p $(DESTDIR)$(apertium_arg_srcdir)
-	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_arg_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).acx $(DESTDIR)$(apertium_arg_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_arg_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_arg_srcdir)
-
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_arg_srcdir)
+	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_arg_srcdir)
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:
 	-rm -rf .deps modes
+
+###############################################################################
+## Test
+###############################################################################
+
+test: all
+	echo "TODO test sentence" | apertium -d . arg-morph | tee .test-mt
+	@echo "TODO test analysis results" > .test-ref
+	@diff .test-ref .test-mt
+	@rm .test-ref .test-mt
+
