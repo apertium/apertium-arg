@@ -44968,6 +44968,9 @@
   <e lm="de conchunta con"><i>de<b/>conchunta<b/>con</i><par n="con__pr"/></e>
   <e lm="en chunto con"><i>en<b/>chunto<b/>con</i><par n="con__pr"/></e>
   <e lm="chunto con"><i>chunto<b/>con</i><par n="con__pr"/></e>
+  <e lm="tot y con"><i>tot<b/>y<b/>con</i><par n="con__pr"/></e>
+  <e lm="tot y con" r="LR"><p><l>todo<b/>y<b/>con</l><r>tot<b/>y<b/>con</r></p><par n="con__pr"/></e>
+    
   <e lm="cosa a veyer con"><i>cosa<b/></i><par n="/a_á__var"/><i><b/>veyer<b/>con</i><par n="con__pr"/></e>
   <e lm="cosa a veyer con" r="LR"><p><l>cosa<b/>a<b/>vier<b/>con</l><r>cosa<b/>a<b/>veyer<b/>con</r></p><par n="con__pr"/></e>
   <e lm="cosa a veyer con" r="LR"><p><l>cosa<b/>a<b/>viyer<b/>con</l><r>cosa<b/>a<b/>veyer<b/>con</r></p><par n="con__pr"/></e>
@@ -45443,6 +45446,7 @@
     
     <e lm="porque"><par n="/por__var"/><i>que</i><par n="porque__cnjadv"/></e>
     <e lm="con tot y con ixo"><i>con<b/>tot<b/></i><par n="y_e"/><i><b/>con<b/>ixo</i><par n="porque__cnjadv"/></e>   
+    <e lm="con ixo y con tot"><i>con<b/>ixo<b/></i><par n="y_e"/><i><b/>con<b/>tot</i><par n="porque__cnjadv"/></e>   
     <e lm="pus"><p><l>pus</l><r>pus</r></p><par n="porque__cnjadv"/></e>
     <e lm="pus" r="LR"><p><l>pos</l><r>pus</r></p><par n="porque__cnjadv"/></e>
     <e lm="pus" r="LR"><p><l>pues</l><r>pus</r></p><par n="porque__cnjadv"/></e>
@@ -45517,7 +45521,8 @@
     <e lm="sensación que"><p><l>sensación<b/>que</l> <r>sensación<s n="n"/><s n="f"/><s n="sg"/><j/>que<s n="cnjsub"/></r></p></e>
 
     <e lm="a despeito de"  i="yes"><i>a<b/>despeito<b/></i><par n="contde__pr"/></e>
-    <e lm="a penar de" i="yes"><i>a<b/>penar<b/></i><par n="contde__pr"/></e>
+    <e lm="a pesar de"><i>a<b/>pesar<b/></i><par n="contde__pr"/></e>
+    <e lm="a pesar de" r="LR"><p><l>a<b/>penar<b/></l><r>a<b/>pesar<b/></r></p><par n="contde__pr"/></e>
     <e lm="maguera"  i="yes"><i>maguera</i><par n="porque__cnjadv"/></e>
     <e lm="maguera" r="LR" i="yes"><p><l>maguer</l><r>maguera</r></p><par n="porque__cnjadv"/></e>
     <!-- <e lm="tot y"><i>tot<b/></i><par n="y_e"/><par n="que__cnjadv"/></e> -->
@@ -49433,6 +49438,9 @@
     <e lm="tresladar" r="LR"><p><l>traslad</l><r>treslad</r></p><par n="cant/ar__vblex"/></e>
     <e lm="tractar"><i>tract</i><par n="cant/ar__vblex"/></e>
     <e lm="tractar" r="LR"><p><l>trat</l><r>tract</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="tractar de" r="LR"><i>tract</i><par n="cant/ar__vblex"/><p><l><b/>de</l><r><g><b/>de</g></r></p></e>
+    <e lm="tractar de" r="RL"><i>tract</i><par n="cant/ar__vblex"/><p><l><b/><a/>de</l><r><g><b/>de</g></r></p></e>
+    <e lm="tractar" r="LR"><p><l>trat</l><r>tract</r></p><par n="cant/ar__vblex"/><p><l><b/>de</l><r><g><b/>de</g></r></p></e>
     <e lm="trobar"><i>trob</i><par n="cant/ar__vblex"/></e>
     <e lm="tumbar"><i>tumb</i><par n="cant/ar__vblex"/></e>
     <e lm="usar"><i>us</i><par n="cant/ar__vblex"/></e>
@@ -56941,6 +56949,8 @@
     <e lm="exercicio" r="LR"><p><l>eixercicio</l><r>exercicio</r></p><par n="libro__n"/></e>
     <e lm="procedimiento"><i>procedi</i><par n="achunta/miento__n"/></e>
     <e lm="cudiau"><i>cudia</i><par n="cudia/u__n"/></e>
+    <e lm="tractau"><i>tracta</i><par n="cudia/u__n"/></e>
+    <e lm="tractau" r="LR"><p><l>trata</l><r>tracta</r></p><par n="cudia/u__n"/></e>
     <e lm="conteniu"><i>conteni</i><par n="cudia/u__n"/></e>
     <e lm="chudicio"><p><l>chudicio</l><r>chudicio</r></p><par n="libro__n"/></e>
     <e lm="chuicio" r="LR"><p><l>chuicio</l><r>chudicio</r></p><par n="libro__n"/></e>
@@ -57375,6 +57385,7 @@
     <e lm="transcurso"><i>transcurso</i><par n="libro__n"/></e>
     <e lm="candidato"><i>candidat</i><par n="amig/o__n"/></e>
     <e lm="contracto"><i>contracto</i><par n="libro__n"/></e>
+    <e lm="tracto"><i>tracto</i><par n="libro__n"/></e>
     <e lm="contracto" r="LR"><p><l>contrato</l><r>contracto</r></p><par n="libro__n"/></e>
     <e lm="dato"><i>dato</i><par n="libro__n"/></e>
     <e lm="sindicato"><i>sindicato</i><par n="libro__n"/></e>
