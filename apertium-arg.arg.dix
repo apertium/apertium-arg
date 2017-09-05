@@ -40200,6 +40200,8 @@
     <e lm="cient" r="LR"><p><l>cent</l><r>cient</r></p><par n="dos__num"/></e>
     <e lm="ciento"><i>ciento</i><par n="zero__num"/></e>
     <e lm="cient" r="LR"><p><l>cent</l><r>ciento</r></p><par n="zero__num"/></e>
+    <e lm="ciento"><i>ciento</i><par n="libro__n"/></e>
+    <e lm="cient" r="LR"><p><l>cent</l><r>ciento</r></p><par n="libro__n"/></e>
     <e lm="docientos"><i>doc</i><par n="quatroc/ientos__num"/></e>
     <e lm="docientos" r="LR"><p><l>dosc</l><r>doc</r></p><par n="quatroc/ientos__num"/></e>
     <e lm="trecientos"><i>trec</i><par n="quatroc/ientos__num"/></e>
@@ -63589,7 +63591,7 @@
     <e lm="altar"><i>altar</i><par n="libro__n"/></e>
     <e lm="autocar"><i>autocar</i><par n="libro__n"/></e>
     <e lm="centenar"><i>centenar</i><par n="libro__n"/></e>
-    <e lm="centenar"><i>centenar</i><par n="mil__num"/></e>    
+    <e lm="centenar" i="yes"><i>centenar</i><par n="mil__num"/></e>    
     <e lm="mili"><i>mili</i><par n="luenga__n"/></e>
     <e lm="milar"><i>milar</i><par n="libro__n"/></e>
     <e lm="milar" r="LR"><p><l>millar</l><r>milar</r></p><par n="libro__n"/></e>
