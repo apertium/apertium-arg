@@ -551,37 +551,36 @@
       <e>
         <p>
           <l><b/></l>
-          <r>o<b/></r>
+          <r>lo<b/></r>
         </p>
         <par n="vocals_no_apost_o"/>
       </e>
       <e>
         <p>
           <l><b/><a/></l>
-          <r>o<b/></r>
+          <r>lo<b/></r>
         </p>
         <par n="vocals_no_apost_o"/>
-      </e>
-        <e>
-        <p>
-          <l/>
-          <r>o</r>
-        </p>
-        <par n="consonant"/>
       </e>
       <e>
         <p>
           <l><b/></l>
-          <r>o<b/></r>
+          <r>lo<b/></r>
         </p>
         <par n="consonant"/>
       </e>
       <e>
         <p>
           <l><b/><a/></l>
-          <r>o<b/></r>
+          <r>lo<b/></r>
         </p>
         <par n="consonant"/>
+      </e>
+      <e>
+        <p>
+          <l/>
+          <r>lo</r>
+        </p>
       </e>
     </pardef>
 
@@ -593,8 +592,38 @@
         </p>
         <par n="vocals_apost_a"/>
       </e>
+        <e>
+        <p>
+          <l><b/></l>
+          <r>la<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l/>
+          <r>la</r>
+        </p>
+      </e>
+    </pardef>
+    
+    <pardef n="os">
+      <e>
+        <p>
+          <l></l>
+          <r>los</r>
+        </p>
+      </e>
     </pardef>
 
+    <pardef n="as">
+      <e>
+        <p>
+          <l></l>
+          <r>las</r>
+        </p>
+      </e>
+    </pardef>
+    
    <pardef n="de"> 
 
       <e>
@@ -667,13 +696,13 @@
       </e>      
       <e>
         <p>
-          <l><b/>as<b/></l>
+          <l><b/><a/>as<b/></l>
           <r>d'as<b/></r>
         </p>
       </e>
       <e>
         <p>
-          <l><b/>os<b/></l>
+          <l><b/><a/>os<b/></l>
           <r>d'os<b/></r>
         </p>
       </e>
@@ -735,18 +764,167 @@
       -->
     </pardef>
 
-
-   <pardef n="ta">   <!-- ta which makes, t'o, t'a, t'os, t'as, especially when meaning hacia-->
+   <pardef n="en2"> 
+      <e>
+        <p>
+          <l></l>
+          <r>en</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      
+        <e>
+        <p>
+          <l><b/></l>
+          <r>en<b/></r>
+        </p>
+      </e>
+      
       <e>
         <p>
           <l><b/><a/>a<b/></l>
-          <r>t'a<b/></r>
+          <r>en<b/>a<b/></r>
         </p>
       </e>
       <e>
       <p>
           <l><b/><a/>o<b/></l>
-          <r>t'o<b/></r>
+          <r>en<b/>o<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>en<b/>l'</r>
+        </p>
+        <par n="vocals_apost" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>en<b/>o<b/></r>
+        </p>
+        <par n="vocals_no_apost" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>en<b/>o<b/></r>
+        </p>
+        <par n="vocals_no_apost_o" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>a<b/></l>
+          <r>en<b/>l'</r>
+        </p>
+        <par n="vocals_apost_a" />
+      </e>      
+      <e>
+        <p>
+          <l><b/><a/>as<b/></l>
+          <r>en<b/>as<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>os<b/></l>
+          <r>en<b/>os<b/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l/>
+          <r>en</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+    </pardef>
+
+
+   <pardef n="con"> 
+     <e>
+        <p>
+          <l></l>
+          <r>con</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      
+        <e>
+        <p>
+          <l><b/></l>
+          <r>con<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>a<b/></l>
+          <r>con<b/>a<b/></r>
+        </p>
+      </e>
+      <e>
+      <p>
+          <l><b/><a/>o<b/></l>
+          <r>con<b/>o<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>con<b/>l'</r>
+        </p>
+        <par n="vocals_apost" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>con<b/>o<b/></r>
+        </p>
+        <par n="vocals_no_apost" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>con<b/>o<b/></r>
+        </p>
+        <par n="vocals_no_apost_o" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>a<b/></l>
+          <r>con<b/>l'</r>
+        </p>
+        <par n="vocals_apost_a" />
+      </e>      
+      <e>
+        <p>
+          <l><b/><a/>as<b/></l>
+          <r>con<b/>as<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>os<b/></l>
+          <r>con<b/>os<b/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+
+   <pardef n="ta">   <!-- ta which makes, t'o, t'a, t'os, t'as, especially when meaning hacia--><!-- without apostrophe according with GBA-->
+      <e>
+        <p>
+          <l><b/><a/>a<b/></l>
+          <r>ta<b/>la<b/></r>
+        </p>
+      </e>
+      <e>
+      <p>
+          <l><b/><a/>o<b/></l>
+          <r>ta<b/>lo<b/></r>
         </p>
       </e>
       <e>
@@ -759,14 +937,14 @@
       <e>
         <p>
           <l><b/><a/>o<b/></l>
-          <r>t'o<b/></r>
+          <r>ta<b/>lo<b/></r>
         </p>
         <par n="consonant" />
       </e>
       <e>
         <p>
           <l><b/><a/>o<b/></l>
-          <r>t'o<b/></r>
+          <r>ta<b/>lo<b/></r>
         </p>
         <par n="vocals_no_apost_o" />
       </e>
@@ -779,14 +957,14 @@
       </e>      
       <e>
         <p>
-          <l><b/>as<b/></l>
-          <r>t'as<b/></r>
+          <l><b/><a/>as<b/></l>
+          <r>ta<b/>las<b/></r>
         </p>
       </e>
       <e>
         <p>
-          <l><b/>os<b/></l>
-          <r>t'os<b/></r>
+          <l><b/><a/>os<b/></l>
+          <r>ta<b/>los<b/></r>
         </p>
       </e>
  <!--     <e>         jp: not in standard
@@ -819,7 +997,7 @@
     </pardef>
 
 
-   <pardef n="ta2"> <!-- ta which makes, ta o, ta la, ta os, as, especially when meaning para-->
+   <pardef n="ta2"> <!-- ta which makes, ta lo, ta la, ta los, ta laas,-->
       <e>
         <p>
           <l><b/><a/>a<b/></l>
@@ -862,14 +1040,14 @@
       </e>      
       <e>
         <p>
-          <l><b/>as<b/></l>
+          <l><b/><a/>as<b/></l>
           <r>ta<b/>las<b/></r>
         </p>
       </e>
       <e>
         <p>
-          <l><b/>os<b/></l>
-          <r>ta<b/>os<b/></r>
+          <l><b/><a/>os<b/></l>
+          <r>ta<b/>los<b/></r>
         </p>
       </e>
       <e>
@@ -880,7 +1058,7 @@
       </e>
 </pardef>
 
-   <pardef n="pa"> <!-- pa which makes, pa o, pa la, pa os, pa las-->
+   <pardef n="pa"> <!-- pa which makes, pa lo, pa la, pa los, pa las-->
       <e>
         <p>
           <l><b/><a/>a<b/></l>
@@ -890,7 +1068,7 @@
       <e>
       <p>
           <l><b/><a/>o<b/></l>
-          <r>pa<b/>o<b/></r>
+          <r>pa<b/>lo<b/></r>
         </p>
       </e>
       <e>
@@ -903,14 +1081,14 @@
       <e>
         <p>
           <l><b/><a/>o<b/></l>
-          <r>pa<b/>o<b/></r>
+          <r>pa<b/>lo<b/></r>
         </p>
         <par n="consonant" />
       </e>
       <e>
         <p>
           <l><b/><a/>o<b/></l>
-          <r>pa<b/>o<b/></r>
+          <r>pa<b/>lo<b/></r>
         </p>
         <par n="vocals_no_apost_o" />
       </e>
@@ -923,14 +1101,14 @@
       </e>      
       <e>
         <p>
-          <l><b/>as<b/></l>
+          <l><b/><a/>as<b/></l>
           <r>pa<b/>las<b/></r>
         </p>
       </e>
       <e>
         <p>
-          <l><b/>os<b/></l>
-          <r>pa<b/>os<b/></r>
+          <l><b/><a/>os<b/></l>
+          <r>pa<b/>los<b/></r>
         </p>
       </e>
       <e>
@@ -974,13 +1152,13 @@
       <e>
         <p>
           <l><b/><a/>a<b/></l>
-          <r>ent'a<b/></r>
+          <r>enta<b/>la<b/></r>
         </p>
       </e>
       <e>
       <p>
           <l><b/><a/>o<b/></l>
-          <r>ent'o<b/></r>
+          <r>enta<b/>lo<b/></r>
         </p>
       </e>
       <e>
@@ -993,14 +1171,14 @@
       <e>
         <p>
           <l><b/><a/>o<b/></l>
-          <r>ent'o<b/></r>
+          <r>enta<b/>lo<b/></r>
         </p>
         <par n="consonant" />
       </e>
       <e>
         <p>
           <l><b/><a/>o<b/></l>
-          <r>ent'o<b/></r>
+          <r>enta<b/>lo<b/></r>
         </p>
         <par n="vocals_no_apost_o" />
       </e>
@@ -1013,14 +1191,14 @@
       </e>      
       <e>
         <p>
-          <l><b/>as<b/></l>
-          <r>ent'as<b/></r>
+          <l><b/><a/>as<b/></l>
+          <r>enta<b/>las<b/></r>
         </p>
       </e>
       <e>
         <p>
-          <l><b/>os<b/></l>
-          <r>ent'os<b/></r>
+          <l><b/><a/>os<b/></l>
+          <r>enta<b/>los<b/></r>
         </p>
       </e>
  <!--     <e>         jp: not in standard
@@ -1062,7 +1240,7 @@
       <e>
       <p>
           <l><b/><a/>o<b/></l>
-          <r>a<b/>o<b/></r>
+          <r>a<b/>lo<b/></r>
         </p>
       </e>
       <e>
@@ -1075,14 +1253,14 @@
       <e>
         <p>
           <l><b/><a/>o<b/></l>
-          <r>a<b/>o<b/></r>
+          <r>a<b/>lo<b/></r>
         </p>
         <par n="consonant" />
       </e>
       <e>
         <p>
           <l><b/><a/>o<b/></l>
-          <r>a<b/>o<b/></r>
+          <r>a<b/>lo<b/></r>
         </p>
         <par n="vocals_no_apost_o" />
       </e>
@@ -1095,14 +1273,14 @@
       </e>      
       <e>
         <p>
-          <l><b/>as<b/></l>
+          <l><b/><a/>as<b/></l>
           <r>a<b/>las<b/></r>
         </p>
       </e>
       <e>
         <p>
-          <l><b/>os<b/></l>
-          <r>a<b/>os<b/></r>
+          <l><b/><a/>os<b/></l>
+          <r>a<b/>los<b/></r>
         </p>
       </e>
       <e>
@@ -1152,7 +1330,7 @@
      <e>
         <p>
           <l><b/><a/>de</l>
-          <r>o<b/></r>
+          <r>lo<b/></r>
         </p>
         <par n="de"/>
       </e> 
@@ -1162,7 +1340,7 @@
      <e>
         <p>
           <l><b/><a/>de</l>
-          <r>a<b/></r>
+          <r>la<b/></r>
         </p>
         <par n="de"/>
       </e> 
@@ -1372,7 +1550,7 @@
 
   </pardef>      
   
-  <pardef n="en">
+  <pardef n="en"> <!-- en pronombre -->
         <e>
         <p>
           <l><b/></l>
@@ -1541,6 +1719,7 @@
   </pardefs>
 
   <section id="main" type="standard">
+
         <e>
         <p>
           <l><a/>o</l>
@@ -1548,6 +1727,7 @@
         </p>
         <par n="o"/>
        </e>
+
        <e>
         <p>
           <l><a/>o</l>
@@ -1555,6 +1735,7 @@
         </p>
         <par n="o_de"/>
        </e>
+       
        <e>  <!-- a as an article-->
         <p>
           <l><a/>a</l>
@@ -1562,6 +1743,7 @@
         </p>
         <par n="a"/>
        </e>
+
        <e>
         <p>
           <l><a/>a</l>
@@ -1569,13 +1751,47 @@
         </p>
         <par n="a_de"/>
        </e>
+
         <e>
+        <p>
+          <l><a/>os</l>
+          <r/>
+        </p>
+        <par n="os"/>
+       </e>
+ 
+        <e>
+        <p>
+          <l><a/>as</l>
+          <r/>
+        </p>
+        <par n="as"/>
+       </e>       
+     
+      <e>
         <p>
           <l><a/>de</l>
           <r/>
         </p>
         <par n="de"/>
       </e>
+ 
+      <e> <!--  preposición en -->
+        <p>
+          <l><a/>en2</l>
+          <r/>
+        </p>
+        <par n="en2"/>
+      </e>
+      
+    <e>
+        <p>
+          <l><a/>con</l>
+          <r/>
+        </p>
+        <par n="con"/>
+      </e> 
+      
         <e>  <!-- ta with the meaning of 'hacia' -->
         <p>
           <l><a/>ta</l>
