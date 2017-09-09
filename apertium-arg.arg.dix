@@ -57069,8 +57069,8 @@
     <e lm="tecnico"><i>tecnic</i><par n="academic/o__adj"/></e>
     <e lm="esposo"><i>espos</i><par n="amig/o__n"/></e>
     <e lm="nino"><i>nin</i><par n="amig/o__n"/></e>
-    <e lm="interés"><i>interés</i><par n="país__n"/></e>
-    <e lm="interés" r="LR"><p><l>intrés</l><r>interés</r></p><par n="país__n"/></e>
+    <e lm="interés"><i>inter</i><par n="travi/és__n"/></e>
+    <e lm="interés" r="LR"><p><l>intr</l><r>inter</r></p><par n="travi/és__n"/></e>
     <e lm="obligación"><i>obliga</i><par n="actua/ción__n"/></e>
     <e lm="relación"><i>rela</i><par n="actua/ción__n"/></e>
     <e lm="cooperación"><i>coopera</i><par n="actua/ción__n"/></e>
