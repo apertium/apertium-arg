@@ -45056,8 +45056,8 @@
   <e lm="en emparo de" r="LR"><p><l>en<b/>emparo<b/></l><r>en<b/>refirme<b/></r></p><par n="contde__pr"/></e>
   <e lm="en suporte de" r="LR"><p><l>en<b/>suporte<b/></l><r>en<b/>refirme<b/></r></p><par n="contde__pr"/></e>
   <e lm="en soport de" r="LR"><p><l>en<b/>soporte<b/></l><r>en<b/>refirme<b/></r></p><par n="contde__pr"/></e>
-  <e lm="en intrés de" r="RL"><i>en<b/>intrés<b/></i><par n="contde__pr"/></e>
-  <e lm="en intrés de" r="LR" i="yes"><p><l>en<b/>interés<b/></l><r>en<b/>intrés<b/></r></p><par n="contde__pr"/></e>
+  <e lm="en interés de"><i>en<b/>interés<b/></i><par n="contde__pr"/></e>
+  <e lm="en interés de" r="LR"><p><l>en<b/>intrés<b/></l><r>en<b/>interés<b/></r></p><par n="contde__pr"/></e>
   <e lm="en busca de"><i>en<b/>busca<b/></i><par n="contde__pr"/></e>
   <e lm="a la encerca de"><par n="/a_á__var"/><i><b/>la<b/>encerca<b/></i><par n="contde__pr"/></e>
   <e lm="a la rechira de"><par n="/a_á__var"/><i><b/>la<b/>rechira<b/></i><par n="contde__pr"/></e>
@@ -56570,6 +56570,7 @@
     <e lm="immobiliaria"><i>immobiliaria</i><par n="luenga__n"/></e>
     <e lm="immobiliaria" r="LR"><p><l>inmobiliaria</l><r>immobiliaria</r></p><par n="luenga__n"/></e>
     <e lm="ezquierda"><i>ezquierda</i><par n="luenga__n"/></e>
+    <e lm="ezquierda" r="LR"><p><l>izquierda</l><r>ezquierda</r></p><par n="luenga__n"/></e>
     <e lm="cucha"><i>cucha</i><par n="luenga__n"/></e>
     <e lm="zurda"><i>zurda</i><par n="luenga__n"/></e>
     <e lm="chudía"><i>chudía</i><par n="luenga__n"/></e>
@@ -57068,8 +57069,8 @@
     <e lm="tecnico"><i>tecnic</i><par n="academic/o__adj"/></e>
     <e lm="esposo"><i>espos</i><par n="amig/o__n"/></e>
     <e lm="nino"><i>nin</i><par n="amig/o__n"/></e>
-    <e lm="intrés"><i>intrés</i><par n="país__n"/></e>
-    <e lm="intrés" r="LR"><p><l>interés</l><r>intrés</r></p><par n="país__n"/></e>
+    <e lm="interés"><i>interés</i><par n="país__n"/></e>
+    <e lm="interés" r="LR"><p><l>intrés</l><r>interés</r></p><par n="país__n"/></e>
     <e lm="obligación"><i>obliga</i><par n="actua/ción__n"/></e>
     <e lm="relación"><i>rela</i><par n="actua/ción__n"/></e>
     <e lm="cooperación"><i>coopera</i><par n="actua/ción__n"/></e>
@@ -57089,6 +57090,7 @@
     <e lm="consciencia" r="LR"><p><l>conzenzia</l><r>consciencia</r></p><par n="luenga__n"/></e>
     <e lm="raza"><i>raza</i><par n="luenga__n"/></e>
     <e lm="practica"><i>pra</i><par n="/ct_ut__var"/><i>ica</i><par n="luenga__n"/></e>
+    <e lm="garantía"><i>garantía</i><par n="luenga__n"/></e>
     <e lm="guarencia"><i>guarencia</i><par n="luenga__n"/></e>
     <e lm="guarencia" r="LR"><p><l>guarancia</l><r>guarencia</r></p><par n="luenga__n"/></e>
     <e lm="sobiranía"><i>sobiranía</i><par n="luenga__n"/></e>
