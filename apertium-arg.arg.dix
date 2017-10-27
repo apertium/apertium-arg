@@ -39306,7 +39306,8 @@
   <e r="RL"><p><l></l>          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l></l>          <r><s n="np"/><s n="ant"/><s n="m"/><s n="pl"/></r></p></e>
   <e r="RL"><p><l></l>          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-
+  <e r="RL"><p><l></l>          <r><s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+  
     </pardef>
 
     <pardef n="Belén__np">
@@ -39326,7 +39327,7 @@
   <e r="RL"><p><l></l>          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l></l>          <r><s n="np"/><s n="ant"/><s n="m"/><s n="pl"/></r></p></e>
   <e r="RL"><p><l></l>          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-
+  <e r="RL"><p><l></l>          <r><s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
     
     <pardef n="Soria__np">
@@ -55870,10 +55871,10 @@
     <e lm="estable"><i>estable</i><par n="social__adj"/></e>
     <e lm="estacional"><i>estacional</i><par n="social__adj"/></e>
     <e lm="estalinista"><i>estalinista</i><par n="social__adj"/></e>
-    <e lm="estandar"><i>estandar</i><par n="social__adj"/></e>
-    <e lm="estandar" r="LR"><p><l>estándar</l><r>estandar</r></p><par n="social__adj"/></e>  
-    <e lm="estandar" r="LR"><p><l>estándard</l><r>estandar</r></p><par n="social__adj"/></e>  
-    <e lm="estandar" r="LR"><p><l>estandard</l><r>estandar</r></p><par n="social__adj"/></e>  
+    <e lm="estandard"><i>estandard</i><par n="multimedia__adj"/></e>
+    <e lm="estandard" r="LR"><p><l>estándar</l><r>estandard</r></p><par n="multimedia__adj"/></e>  
+    <e lm="estandard" r="LR"><p><l>estándard</l><r>estandard</r></p><par n="multimedia__adj"/></e>  
+    <e lm="estandard" r="LR"><p><l>estandard</l><r>estandard</r></p><par n="multimedia__adj"/></e>  
     <e lm="estatal"><i>estatal</i><par n="social__adj"/></e>
     <e lm="estelar"><i>estelar</i><par n="social__adj"/></e>
     <e lm="esteril"><i>esteril</i><par n="social__adj"/></e>
@@ -55900,7 +55901,7 @@
     <e lm="exponencial"><i>exponencial</i><par n="social__adj"/></e>
     <e lm="expresionista"><i>expresionista</i><par n="social__adj"/></e>
     <e lm="exterior"><i>exterior</i><par n="social__adj"/></e>
-    <!-- <e lm="extra"><i>extra</i><par n="social__adj"/></e> -->
+    <e lm="extra"><i>extra</i><par n="social__adj"/></e>
     <e lm="facil"><i>facil</i><par n="social__adj"/></e>
     <e lm="facil" r="LR"><p><l>fácil</l><r>facil</r></p><par n="social__adj"/></e>  
     <e lm="factorial"><i>factorial</i><par n="social__adj"/></e>
@@ -57628,6 +57629,53 @@
     <e lm="desalcuentro"><i>desalcuentro</i><par n="libro__n"/></e>
     <e lm="alcuentro"><i>alcuentro</i><par n="libro__n"/></e>
     <e lm="realcuentro"><i>realcuentro</i><par n="libro__n"/></e>
+    
+    
+
+<e lm="10a"><i>10a</i><par n="quaresma__n"/></e>
+<e lm="10o"><i>10o</i><par n="quaresma__n"/></e>
+<e lm="11a"><i>11a</i><par n="quaresma__n"/></e>
+<e lm="11o"><i>11o</i><par n="quaresma__n"/></e>
+<e lm="12a"><i>12a</i><par n="quaresma__n"/></e>
+<e lm="12o"><i>12o</i><par n="quaresma__n"/></e>
+<e lm="13a"><i>13a</i><par n="quaresma__n"/></e>
+<e lm="13o"><i>13o</i><par n="quaresma__n"/></e>
+<e lm="14a"><i>14a</i><par n="quaresma__n"/></e>
+<e lm="14o"><i>14o</i><par n="quaresma__n"/></e>
+<e lm="15a"><i>15a</i><par n="quaresma__n"/></e>
+<e lm="15o"><i>15o</i><par n="quaresma__n"/></e>
+<e lm="16a"><i>16a</i><par n="quaresma__n"/></e>
+<e lm="16o"><i>16o</i><par n="quaresma__n"/></e>
+<e lm="17a"><i>17a</i><par n="quaresma__n"/></e>
+<e lm="17o"><i>17o</i><par n="quaresma__n"/></e>
+<e lm="18a"><i>18a</i><par n="quaresma__n"/></e>
+<e lm="18o"><i>18o</i><par n="quaresma__n"/></e>
+<e lm="19a"><i>19a</i><par n="quaresma__n"/></e>
+<e lm="19o"><i>19o</i><par n="quaresma__n"/></e>
+<e lm="1a"><i>1a</i><par n="quaresma__n"/></e>
+<e lm="1r"><i>1r</i><par n="quaresma__n"/></e>
+<e lm="20a"><i>20a</i><par n="quaresma__n"/></e>
+<e lm="20o"><i>20o</i><par n="quaresma__n"/></e>
+<e lm="2a"><i>2a</i><par n="quaresma__n"/></e>
+<e lm="2o"><i>2o</i><par n="quaresma__n"/></e>
+<e lm="3a"><i>3a</i><par n="quaresma__n"/></e>
+<e lm="3r"><i>3r</i><par n="quaresma__n"/></e>
+<e lm="4a"><i>4a</i><par n="quaresma__n"/></e>
+<e lm="4o"><i>4o</i><par n="quaresma__n"/></e>
+<e lm="5a"><i>5a</i><par n="quaresma__n"/></e>
+<e lm="5o"><i>5o</i><par n="quaresma__n"/></e>
+<e lm="6a"><i>6a</i><par n="quaresma__n"/></e>
+<e lm="6o"><i>6o</i><par n="quaresma__n"/></e>
+<e lm="7a"><i>7a</i><par n="quaresma__n"/></e>
+<e lm="7o"><i>7o</i><par n="quaresma__n"/></e>
+<e lm="8a"><i>8a</i><par n="quaresma__n"/></e>
+<e lm="8o"><i>8o</i><par n="quaresma__n"/></e>
+<e lm="9a"><i>9a</i><par n="quaresma__n"/></e>
+<e lm="9o"><i>9o</i><par n="quaresma__n"/></e>
+    
+ 
+ 
+    
     <!--
     <e lm="dispertar"><i>dispertar</i><par n="libro__n"/></e>
     <e lm="dispertar" r="LR"><p><l>espertar</l><r>dispertar</r></p><par n="libro__n"/></e>
