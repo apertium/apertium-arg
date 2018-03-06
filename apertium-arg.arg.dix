@@ -42688,8 +42688,8 @@
     <e lm="postmodernidat"><i>postmodernid</i><par n="privacid/at__n"/></e>
     <e lm="privacidat"><i>privacid</i><par n="privacid/at__n"/></e>
     <e lm="prioridat"><i>priorid</i><par n="privacid/at__n"/></e>
-    <e lm="prebabilidat"><i>prebabilid</i><par n="privacid/at__n"/></e>
-    <e lm="prebabilidat" r="LR"><p><l>probabilid</l><r>prebabilid</r></p><par n="privacid/at__n"/></e>
+    <e lm="probabilidat"><i>probabilid</i><par n="privacid/at__n"/></e>
+    <e lm="probabilidat" r="LR"><p><l>prebabilid</l><r>probabilid</r></p><par n="privacid/at__n"/></e>
     <e lm="provincia"><i>provincia</i><par n="luenga__n"/></e>
     <e lm="productividat"><i>productivid</i><par n="privacid/at__n"/></e>
     <e lm="productividat" r="LR"><p><l>produtibid</l><r>productivid</r></p><par n="privacid/at__n"/></e>
@@ -56347,10 +56347,10 @@
     <e lm="primordial"><i>primordial</i><par n="social__adj"/></e>
     <e lm="prencipal"><i>prencipal</i><par n="social__adj"/></e>
     <e lm="prencipal" r="LR"><p><l>principal</l><r>prencipal</r></p><par n="social__adj"/></e>
-    <e lm="prebable"><i>prebable</i><par n="social__adj_adv"/></e>
-    <e lm="prebable" r="LR"><p><l>probable</l><r>prebable</r></p><par n="social__adj_adv"/></e>    
-    <e lm="imprebable"><i>imprebable</i><par n="social__adj_adv"/></e>
-    <e lm="imprebable" r="LR"><p><l>improbable</l><r>imprebable</r></p><par n="social__adj_adv"/></e>
+    <e lm="probable"><i>probable</i><par n="social__adj_adv"/></e>
+    <e lm="probable" r="LR"><p><l>prebable</l><r>probable</r></p><par n="social__adj_adv"/></e>    
+    <e lm="improbable"><i>improbable</i><par n="social__adj_adv"/></e>
+    <e lm="improbable" r="LR"><p><l>imprebable</l><r>improbable</r></p><par n="social__adj_adv"/></e>
     <e lm="reprebable"><i>reprebable</i><par n="social__adj_adv"/></e>
     <e lm="reprebable" r="LR"><p><l>reprobable</l><r>reprebable</r></p><par n="social__adj_adv"/></e>
     <e lm="procariota"><i>procariota</i><par n="social__adj"/></e>
@@ -62757,8 +62757,8 @@
     <e lm="enfriar"><i>enfr</i><par n="esp/iar__vblex"/></e>
     <e lm="resfriar"><i>resfr</i><par n="esp/iar__vblex"/></e>
     <e lm="enmorgar"><i>enmorg</i><par n="pag/ar__vblex"/></e>    
-    <e lm="trigar"><i>trig</i><par n="pag/ar__vblex"/></e>
-    <e lm="triar" r="LR"><p><l>tr</l><r>tr</r></p><par n="esp/iar__vblex"/></e>
+    <e lm="trigar" r="LR"><i>trig</i><par n="pag/ar__vblex"/></e>
+    <e lm="triar"><p><l>tr</l><r>tr</r></p><par n="esp/iar__vblex"/></e>
     <e lm="esconfiar"><i>esconf</i><par n="esp/iar__vblex"/></e>
     <e lm="esconfiar" r="LR"><p><l>desconf</l><r>esconf</r></p><par n="esp/iar__vblex"/></e>
     <e lm="esconfiar" r="LR"><p><l>desconfit</l><r>esconfi</r></p><par n="cant/ar__vblex"/></e>
