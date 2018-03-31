@@ -363,13 +363,33 @@
   <e r="LR"><p><l>muto<b/></l>         <r></r></p></e>
 </pardef>
 
-<pardef n="/o_superlativo__adj"> <!-- to analyze or generate superlative forms with muit(o) -->
+<pardef n="/o_superlativo__adj"> <!-- to analyze or generate superlative forms with muit(o), per eixemplo, muito odioso -->
   <e>       <p><l>as</l>        <r>o<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>a</l>         <r>o<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>os</l>         <r>o<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>o</l>          <r>o<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
-    
+
+<pardef n="/_superlativo__adj"> <!-- to analyze or generate superlative forms with muit(o) . per eixemplo, muito popular-->
+<!--
+  <e>       <p><l>s</l>        <r><s n="adj"/><s n="sup"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>         <r><s n="adj"/><s n="sup"/><s n="mf"/><s n="sg"/></r></p></e>
+  -->
+  <e>       <p><l>s</l>        <r><s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>         <r><s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r></p></e>  
+</pardef>
+  
+  <pardef n="/ero_superlativo__adj"> <!-- to analyze or generate superlative forms with muit(o), per eixemplo, muito odioso -->
+  <e>       <p><l>eras</l>        <r>ero<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>era</l>         <r>ero<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ers</l>         <r>ero<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"> <p><l>eros</l>         <r>ero<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ero</l>          <r>ero<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR">       <p><l>er</l>         <r>ero<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r></p></e>
+</pardef>
+
 <!-- estos quatro paradigmas convierten totas las variants de l'articlo en o lema de l'articlo "o" (per eixemplo en multiparolas con flexión). 
 En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <pardef n="detarticle_m_sg_var">
@@ -11503,7 +11523,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e r="LR" lm="embrazau"> <p><l>embaraza</l>  <r>embraza</r></p><par n="adequa/u__adj"/></e>
 <e lm="embrazau">        <i>embraza</i><par n="adequa/u__adj"/></e>
 <e lm="embrionario">     <i>embrionari</i><par n="academic/o__adj"/></e>
-<e lm="emerito">         <i>emerit</i><par n="alt/o__adj"/></e>
+<e lm="emerito">         <i>emerit</i><par n="academic/o__adj"/></e>
 <e lm="eminent">         <i>emin</i><par n="difer/ent__adj"/></e>
 <e lm="empirista">       <i>empirista</i><par n="social__adj"/></e>
 <e lm="empresarial">     <i>empresarial</i><par n="social__adj"/></e>
@@ -11563,9 +11583,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="espectacular">    <i>espectacular</i><par n="social__adj"/></e>
 <e lm="espectral">       <i>espectral</i><par n="social__adj"/></e>
 <e lm="esperantista">    <i>esperantista</i><par n="social__adj"/></e>
-<e r="LR" lm="expierto"> <p><l>espert</l>    <r>expiert</r></p><par n="academic/o__adj"/></e>
 <e lm="espeso">          <i>espes</i><par n="academic/o__adj"/></e>
-<e r="LR" lm="expierto"> <p><l>espiert</l>   <r>expiert</r></p><par n="academic/o__adj"/></e>
 <e lm="espinal">         <i>espinal</i><par n="social__adj"/></e>
 <e lm="espinoso">        <i>espinos</i><par n="academic/o__adj"/></e>
 <e lm="espiral">         <i>espiral</i><par n="social__adj"/></e>
@@ -11636,8 +11654,6 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="expansivo">       <i>expansi</i><par n="cursi/vo__adj"/></e>
 <e lm="expansionista">   <i>expansionista</i><par n="social__adj"/></e>
 <e lm="experimental">    <i>experimental</i><par n="social__adj"/></e>
-<e r="LR" lm="expierto"> <p><l>expert</l>    <r>expiert</r></p><par n="academic/o__adj"/></e>
-<e lm="expierto">        <i>expiert</i><par n="academic/o__adj"/></e>
 <e lm="explicativo">     <i>explicati</i><par n="cursi/vo__adj"/></e>
 <e lm="explosivo">       <i>explosi</i><par n="cursi/vo__adj"/></e>
 <e lm="exponencial">     <i>exponencial</i><par n="social__adj"/></e>
@@ -11898,18 +11914,13 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="indiscutible">    <i>indiscutible</i><par n="social__adj"/></e>
 <e lm="indispensable">   <i>indispensable</i><par n="social__adj"/></e>
 <e lm="individual">      <i>individual</i><par n="social__adj"/></e>
-<e lm="individual">      <i>individual</i><par n="social__adj"/></e>
 <e lm="indivisible">     <i>indivisible</i><par n="social__adj"/></e>
 <e lm="indonesio">       <i>indonesi</i><par n="academic/o__adj"/></e>
 <e lm="inductivo">       <i>inducti</i><par n="cursi/vo__adj"/></e>
 <e lm="industrial">      <i>industrial</i><par n="social__adj"/></e>
 <e lm="inedito">         <i>inedit</i><par n="academic/o__adj"/></e>
-<e r="LR" lm="inexpierto"><p><l>inespert</l> <r>inexpiert</r></p><par n="academic/o__adj"/></e>
-<e r="LR" lm="inexpierto"><p><l>inespiert</l><r>inexpiert</r></p><par n="academic/o__adj"/></e>
 <e lm="inestable">       <i>inestable</i><par n="social__adj"/></e>
 <e lm="inestimable">     <i>inestimable</i><par n="social__adj"/></e>
-<e r="LR" lm="inexpierto"><p><l>inexpert</l> <r>inexpiert</r></p><par n="academic/o__adj"/></e>
-<e lm="inexpierto">      <i>inexpiert</i><par n="academic/o__adj"/></e>
 <e lm="infame">          <i>infame</i><par n="social__adj"/></e>
 <e lm="infantil">        <i>infantil</i><par n="social__adj"/></e>
 <e lm="inferior">        <i>inferior</i><par n="social__adj"/></e>
@@ -12211,7 +12222,6 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="nasal">           <i>nasal</i><par n="social__adj"/></e>
 <e lm="nato">            <i>nat</i><par n="academic/o__adj"/></e>
 <e lm="natal">           <i>natal</i><par n="social__adj"/></e>
-<e lm="nativo">          <i>nati</i><par n="cursi/vo__adj"/></e>
 <e lm="natural">         <i>natural</i><par n="social__adj"/></e>
 <e lm="naturalista">     <i>naturalista</i><par n="social__adj"/></e>
 <e lm="naval">           <i>naval</i><par n="social__adj"/></e>
@@ -12597,7 +12607,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="rotundo">         <i>rotund</i><par n="academic/o__adj"/></e>
 <e lm="royo">            <i>roy</i><par n="alt/o__adj"/></e>
 <e lm="royisco">         <i>royisc</i><par n="academic/o__adj"/></e>
-<e lm="rubio">           <i>rubi</i><par n="academic/o__adj"/></e>
+<e lm="rubio" i="yes">           <i>rubi</i><par n="academic/o__adj"/></e>
 <e lm="rudo">            <i>rud</i><par n="academic/o__adj"/></e>
 <e lm="rudimentario">    <i>rudimentari</i><par n="academic/o__adj"/></e>
 <e lm="rugoso">          <i>rugos</i><par n="academic/o__adj"/></e>
@@ -12752,7 +12762,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="sutil">           <i>sutil</i><par n="social__adj"/></e>
 <e lm="suyo">            <i>suy</i><par n="mí/o__adj"/></e>
 <e lm="tal">             <i>tal</i><par n="social__adj"/></e>
-<e lm="tanto">           <i>tant</i><par n="academic/o__adj"/></e>
+<e lm="tanto">           <i>tant</i><par n="alt/o__adj"/></e>
 <e lm="tarambán">        <i>taramb</i><par n="matut/án__adj"/></e>
 <e lm="tardán" i="yes">  <i>tard</i><par n="occit/án__adj"/></e>
 <e lm="tarraconense">    <i>tarraconense</i><par n="social__adj"/></e>
@@ -12947,8 +12957,76 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="zurdo">           <i>zurd</i><par n="academic/o__adj"/></e>
 <e r="LR" lm="útil">     <p><l>útil</l>      <r>util</r></p><par n="social__adj"/></e>
 
-<e r="LR" lm="muito activo">  <par n="/muito__var"/><i>activ</i><par n="/o_superlativo__adj"/></e>
-<e r="LR" lm="muito efectivo">  <par n="/muito__var"/><i>activ</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito activo">  <par n="/muito__var"/><i>activ</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito efectivo">  <par n="/muito__var"/><i>activ</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito emerito">  <par n="/muito__var"/><i>emerit</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito atento">  <par n="/muito__var"/><i>atent</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito barroco">  <par n="/muito__var"/><i>barroc</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito beato">  <par n="/muito__var"/><i>beat</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito casto">  <par n="/muito__var"/><i>cast</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito cauto">  <par n="/muito__var"/><i>caut</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito cierto">  <par n="/muito__var"/><i>ciert</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito diverso">  <par n="/muito__var"/><i>divers</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito efectivo">  <par n="/muito__var"/><i>efectiv</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito experto">  <par n="/muito__var"/><i>efectiv</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito soltero">  <par n="/muito__var"/><i>solt</i><par n="/ero_superlativo__adj"/></e>
+<e r="RL" lm="muito fecundo">  <par n="/muito__var"/><i>fecund</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito furibundo">  <par n="/muito__var"/><i>furibund</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito graso">  <par n="/muito__var"/><i>gras</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito odioso">  <par n="/muito__var"/><i>odios</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito immediato">  <par n="/muito__var"/><i>immediat</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito honesto">  <par n="/muito__var"/><i>honest</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito actual">  <par n="/muito__var"/><i>actual</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito banal">  <par n="/muito__var"/><i>banal</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito cordial">  <par n="/muito__var"/><i>cordial</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito cruel">  <par n="/muito__var"/><i>cruel</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito decent">  <par n="/muito__var"/><i>decent</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito dilichent">  <par n="/muito__var"/><i>dilichent</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito elemental">  <par n="/muito__var"/><i>elemental</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito eloqüent">  <par n="/muito__var"/><i>eloqüent</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito eminent">  <par n="/muito__var"/><i>eminent</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito especial">  <par n="/muito__var"/><i>especial</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito esencial">  <par n="/muito__var"/><i>esencial</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito excelent">  <par n="/muito__var"/><i>excelent</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito eixemplar">  <par n="/muito__var"/><i>eixemplar</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito exichent">  <par n="/muito__var"/><i>exichent</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito feble">  <par n="/muito__var"/><i>feble</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito esencial">  <par n="/muito__var"/><i>esencial</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito fidel">  <par n="/muito__var"/><i>fidel</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito cheneral">  <par n="/muito__var"/><i>cheneral</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito chentil">  <par n="/muito__var"/><i>chentil</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito habitual">  <par n="/muito__var"/><i>habitual</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito humil">  <par n="/muito__var"/><i>humil</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito ideyal">  <par n="/muito__var"/><i>ideyal</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito individual">  <par n="/muito__var"/><i>individual</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito intelichent">  <par n="/muito__var"/><i>intelichent</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito mediocre">  <par n="/muito__var"/><i>mediocre</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito natural">  <par n="/muito__var"/><i>natural</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito normal">  <par n="/muito__var"/><i>normal</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito particular">  <par n="/muito__var"/><i>particular</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito peculiar">  <par n="/muito__var"/><i>peculiar</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito penitent">  <par n="/muito__var"/><i>penitent</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito personal">  <par n="/muito__var"/><i>personal</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito popular">  <par n="/muito__var"/><i>popular</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito prencipal">  <par n="/muito__var"/><i>prencipal</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito puntual">  <par n="/muito__var"/><i>puntual</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito racional">  <par n="/muito__var"/><i>racional</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito real">  <par n="/muito__var"/><i>real</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito recient">  <par n="/muito__var"/><i>recient</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito singular">  <par n="/muito__var"/><i>singular</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito subtil">  <par n="/muito__var"/><i>subtil</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito recient">  <par n="/muito__var"/><i>real</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito recient">  <par n="/muito__var"/><i>real</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito recient">  <par n="/muito__var"/><i>real</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito tradicional">  <par n="/muito__var"/><i>tradicional</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito transcendental">  <par n="/muito__var"/><i>transcendental</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito valient">  <par n="/muito__var"/><i>valient</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito vital">  <par n="/muito__var"/><i>valient</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito vulgar">  <par n="/muito__var"/><i>vulgar</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito covarde">  <par n="/muito__var"/><i>covarde</i><par n="/_superlativo__adj"/></e>
+<e r="LR" lm="muito covarde" i="yes">  <par n="/muito__var"/><p><l>cobarde</l><r>covarde</r></p><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito fervient">  <par n="/muito__var"/><i>fervient</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito tozoludo">  <par n="/muito__var"/><i>tozoludo</i><par n="/_superlativo__adj"/></e>
 
     <!-- ******************************
           group adj_adv
@@ -12973,7 +13051,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="abstraito">       <i>abstrait</i><par n="academic/o__adj_adv"/></e>
 <e r="LR" lm="abstrayiu"><i>abstrayi</i><par n="adequa/u__adj_adv"/></e>
 <e lm="absurdo">         <i>absurd</i><par n="academic/o__adj_adv"/></e>
-<e lm="abundant">        <i>abund</i><par n="degrad/ant__adj_adv"/></e>
+<e lm="abundant">        <i>abund</i><par n="import/ant__adj_adv"/></e>
 <e lm="abundoso">        <i>abundos</i><par n="alt/o__adj_adv"/></e>
 <e lm="aburriu">         <i>aburri</i><par n="sala/u__adj_adv"/></e>
 <e lm="abusivo">         <i>abusi</i><par n="cursi/vo__adj_adv"/></e>
@@ -14235,6 +14313,13 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="expeditivo">      <i>expediti</i><par n="cursi/vo__adj_adv"/></e>
 <e lm="experimental">    <i>experimental</i><par n="social__adj_adv"/></e>
 <e lm="experto">         <i>expert</i><par n="academic/o__adj_adv"/></e>
+<e r="LR" lm="experto"> <p><l>expiert</l>    <r>expert</r></p><par n="academic/o__adj"/></e>
+<e r="LR" lm="experto"> <p><l>espert</l>    <r>expert</r></p><par n="academic/o__adj"/></e>
+<e r="LR" lm="experto"> <p><l>espiert</l>   <r>expert</r></p><par n="academic/o__adj"/></e>
+<e lm="inexperto">         <i>expert</i><par n="academic/o__adj_adv"/></e>
+<e r="LR" lm="inexperto"> <p><l>inexpiert</l>    <r>inexpert</r></p><par n="academic/o__adj"/></e>
+<e r="LR" lm="inexperto"> <p><l>inespert</l>    <r>inexpert</r></p><par n="academic/o__adj"/></e>
+<e r="LR" lm="inexperto"> <p><l>inespiert</l>   <r>inexpert</r></p><par n="academic/o__adj"/></e>
 <e lm="expiatorio">      <i>expiatori</i><par n="academic/o__adj_adv"/></e>
 <e lm="explicable">      <i>explicable</i><par n="social__adj_adv"/></e>
 <e lm="explicativo">     <i>explicati</i><par n="cursi/vo__adj_adv"/></e>
@@ -14324,7 +14409,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="ferroviario">     <i>ferroviari</i><par n="academic/o__adj_adv"/></e>
 <e lm="fertil">          <i>fertil</i><par n="social__adj_adv"/></e>
 <e lm="fertilizant">     <i>fertiliz</i><par n="degrad/ant__adj_adv"/></e>
-<e lm="fervent">         <i>ferv</i><par n="difer/ent__adj_adv"/></e>
+<e lm="fervient">         <i>fervi</i><par n="difer/ent__adj_adv"/></e>
 <e lm="fervoroso">       <i>fervoros</i><par n="alt/o__adj_adv"/></e>
 <e lm="fesable">         <i>fesable</i><par n="social__adj_adv"/></e>
 <e r="LR" lm="fisico">   <p><l>fesic</l>     <r>fisic</r></p><par n="academic/o__adj_adv"/></e>
@@ -15304,7 +15389,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="mutuo">           <i>mutu</i><par n="academic/o__adj_adv"/></e>
 <e lm="nacional">        <i>nacional</i><par n="social__adj_adv"/></e>
 <e lm="nadalenco">       <i>nadalenc</i><par n="academic/o__adj_adv"/></e>
-<e lm="nadivo">          <i>nadi</i><par n="cursi/vo__adj_adv"/></e>
+<e lm="nativo">          <i>nati</i><par n="cursi/vo__adj_adv"/></e>
 <e lm="naixent">         <i>naixi</i><par n="difer/ent__adj_adv"/></e>
 <e lm="narcisista">      <i>narcisista</i><par n="social__adj_adv"/></e>
 <e lm="narrativo">       <i>narrati</i><par n="cursi/vo__adj_adv"/></e>
@@ -21012,6 +21097,10 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="exito">           <i>exito</i><par n="libro__n"/></e>
 <e lm="exoneración">     <i>exonera</i><par n="actua/ción__n"/></e>
 <e lm="exorcista">       <i>exorcista</i><par n="accionista__n"/></e>
+<e lm="experto">         <i>expert</i><par n="amig/o__n"/></e>
+<e r="LR" lm="experto"> <p><l>expiert</l>    <r>expert</r></p><par n="amig/o__n"/></e>
+<e r="LR" lm="experto"> <p><l>espert</l>    <r>expert</r></p><par n="amig/o__n"/></e>
+<e r="LR" lm="experto"> <p><l>espiert</l>   <r>expert</r></p><par n="amig/o__n"/></e>
 <e lm="expansión">       <i>expansi</i><par n="divisi/ón__n"/></e>
 <e lm="expansionismo">   <i>expansionismo</i><par n="libro__n"/></e>
 <e lm="expansionismo">   <i>expansionismo</i><par n="libro__n"/></e>
@@ -21024,7 +21113,6 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="experiencia">     <i>experiencia</i><par n="luenga__n"/></e>
 <e lm="experimentación"> <i>experimenta</i><par n="actua/ción__n"/></e>
 <e lm="expiación" a="prompsit2adn"><i>expia</i><par n="actua/ción__n"/></e>
-<e lm="expierto">        <i>expiert</i><par n="amig/o__n"/></e>
 <e lm="expiración" a="prompsit"><i>expira</i><par n="actua/ción__n"/></e>
 <e lm="explanada">       <i>explana</i><par n="vega/da__n"/></e>
 <e lm="explicación">     <i>explica</i><par n="actua/ción__n"/></e>
