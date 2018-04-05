@@ -518,7 +518,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
   <e r="LR"><p><l>-vo</l>       <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>-bo</l>       <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>-o</l>        <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>-so</l>       <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e r="LR" i="yes"><p><l>-so</l>       <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>-zo</l>       <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
 
@@ -560,26 +560,26 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
     
 <pardef n="-ie__enc">
   <e>       <p><l>-ie</l>       <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
-  <e r="LR"><p><l>-hie</l>      <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
-  <e r="LR"><p><l>-ye</l>       <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e r="LR" i="yes"><p><l>-hie</l>      <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e r="LR" i="yes"><p><l>-ye</l>       <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
   <e r="LR"><p><l>-bi</l>       <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
   <e r="LR" c="da-mo'ie"><p><l>'ie</l><r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
-  <e r="LR"><p><l>'hie</l>      <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
-  <e r="LR"><p><l>'ye</l>       <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
-  <e r="LR"><p><l>'bi</l>       <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e r="LR" i="yes"><p><l>'hie</l>      <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e r="LR" i="yes"><p><l>'ye</l>       <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e r="LR" i="yes"><p><l>'bi</l>       <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
 </pardef>
      
 <pardef n="-hue__enc">
   <e r="LR"><p><l>-hue</l>      <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-  <e r="LR"><p><l>-güe</l>      <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-  <e r="LR"><p><l>-ue</l>       <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+  <e r="LR" i="yes"><p><l>-güe</l>      <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+  <e r="LR" i="yes"><p><l>-ue</l>       <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
   <e r="LR"><p><l>-hu</l>       <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-  <e r="LR"><p><l>-u</l>        <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+  <e r="LR" i="yes"><p><l>-u</l>        <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
   <e r="LR"><p><l>'hue</l>      <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-  <e r="LR"><p><l>'güe</l>      <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-  <e r="LR"><p><l>'ue</l>       <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+  <e r="LR" i="yes"><p><l>'güe</l>      <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+  <e r="LR" i="yes"><p><l>'ue</l>       <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
   <e r="LR"><p><l>'hu</l>       <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-  <e r="LR"><p><l>'u</l>        <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+  <e r="LR" i="yes"><p><l>'u</l>        <r><j/>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
 </pardef>
    
 <pardef n="-se__enc">
@@ -4033,7 +4033,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
   <e r="LR"><p><l>iei</l>       <r>ar<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>ies</l>       <r>ar<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>iores</l>     <r>ar<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>ios</l>       <r>ar<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e r="LR" i="yes"><p><l>ios</l>       <r>ar<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>io</l>        <r>ar<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
    
   <e r="LR"><p><l>ie</l>        <r>ar<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -7586,7 +7586,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
     
 <pardef n="s/aber__vblex">
   <e>       <p><l>é</l>         <r>aber<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>e</l>         <r>aber<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e r="LR" i="yes"><p><l>e</l>         <r>aber<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>epo</l>       <r>aber<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>apo</l>       <r>aber<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>abo</l>       <r>aber<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -12968,7 +12968,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e r="RL" lm="muito cierto">  <par n="/muito__var"/><i>ciert</i><par n="/o_superlativo__adj"/></e>
 <e r="RL" lm="muito diverso">  <par n="/muito__var"/><i>divers</i><par n="/o_superlativo__adj"/></e>
 <e r="RL" lm="muito efectivo">  <par n="/muito__var"/><i>efectiv</i><par n="/o_superlativo__adj"/></e>
-<e r="RL" lm="muito experto">  <par n="/muito__var"/><i>efectiv</i><par n="/o_superlativo__adj"/></e>
+<e r="RL" lm="muito experto">  <par n="/muito__var"/><i>expert</i><par n="/o_superlativo__adj"/></e>
 <e r="RL" lm="muito soltero">  <par n="/muito__var"/><i>solt</i><par n="/ero_superlativo__adj"/></e>
 <e r="RL" lm="muito fecundo">  <par n="/muito__var"/><i>fecund</i><par n="/o_superlativo__adj"/></e>
 <e r="RL" lm="muito furibundo">  <par n="/muito__var"/><i>furibund</i><par n="/o_superlativo__adj"/></e>
@@ -12978,6 +12978,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e r="RL" lm="muito honesto">  <par n="/muito__var"/><i>honest</i><par n="/o_superlativo__adj"/></e>
 <e r="RL" lm="muito actual">  <par n="/muito__var"/><i>actual</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito banal">  <par n="/muito__var"/><i>banal</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito convenient">  <par n="/muito__var"/><i>convenient</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito cordial">  <par n="/muito__var"/><i>cordial</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito cruel">  <par n="/muito__var"/><i>cruel</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito decent">  <par n="/muito__var"/><i>decent</i><par n="/_superlativo__adj"/></e>
@@ -12994,6 +12995,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e r="RL" lm="muito esencial">  <par n="/muito__var"/><i>esencial</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito fidel">  <par n="/muito__var"/><i>fidel</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito cheneral">  <par n="/muito__var"/><i>cheneral</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito chenial">  <par n="/muito__var"/><i>chenial</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito chentil">  <par n="/muito__var"/><i>chentil</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito habitual">  <par n="/muito__var"/><i>habitual</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito humil">  <par n="/muito__var"/><i>humil</i><par n="/_superlativo__adj"/></e>
@@ -13003,6 +13005,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e r="RL" lm="muito mediocre">  <par n="/muito__var"/><i>mediocre</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito natural">  <par n="/muito__var"/><i>natural</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito normal">  <par n="/muito__var"/><i>normal</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito orichinal">  <par n="/muito__var"/><i>orichinal</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito particular">  <par n="/muito__var"/><i>particular</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito peculiar">  <par n="/muito__var"/><i>peculiar</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito penitent">  <par n="/muito__var"/><i>penitent</i><par n="/_superlativo__adj"/></e>
@@ -13021,7 +13024,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e r="RL" lm="muito tradicional">  <par n="/muito__var"/><i>tradicional</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito transcendental">  <par n="/muito__var"/><i>transcendental</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito valient">  <par n="/muito__var"/><i>valient</i><par n="/_superlativo__adj"/></e>
-<e r="RL" lm="muito vital">  <par n="/muito__var"/><i>valient</i><par n="/_superlativo__adj"/></e>
+<e r="RL" lm="muito vital">  <par n="/muito__var"/><i>vital</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito vulgar">  <par n="/muito__var"/><i>vulgar</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito covarde">  <par n="/muito__var"/><i>covarde</i><par n="/_superlativo__adj"/></e>
 <e r="LR" lm="muito covarde" i="yes">  <par n="/muito__var"/><p><l>cobarde</l><r>covarde</r></p><par n="/_superlativo__adj"/></e>
@@ -14316,7 +14319,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e r="LR" lm="experto"> <p><l>expiert</l>    <r>expert</r></p><par n="academic/o__adj"/></e>
 <e r="LR" lm="experto"> <p><l>espert</l>    <r>expert</r></p><par n="academic/o__adj"/></e>
 <e r="LR" lm="experto"> <p><l>espiert</l>   <r>expert</r></p><par n="academic/o__adj"/></e>
-<e lm="inexperto">         <i>expert</i><par n="academic/o__adj_adv"/></e>
+<e lm="inexperto">         <i>inexpert</i><par n="academic/o__adj_adv"/></e>
 <e r="LR" lm="inexperto"> <p><l>inexpiert</l>    <r>inexpert</r></p><par n="academic/o__adj"/></e>
 <e r="LR" lm="inexperto"> <p><l>inespert</l>    <r>inexpert</r></p><par n="academic/o__adj"/></e>
 <e r="LR" lm="inexperto"> <p><l>inespiert</l>   <r>inexpert</r></p><par n="academic/o__adj"/></e>
@@ -16827,7 +16830,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="dinantes">        <i>dinantes</i><par n="agora__adv"/></e>
 <e r="LR" lm="dinantes"> <p><l>dinantis</l>  <r>dinantes</r></p><par n="agora__adv"/></e>
 <e r="LR" lm="dimpués">  <p><l>dispués</l>   <r>dimpués</r></p><par n="agora__adv"/></e>
-<e lm="do.">             <i>do.</i><par n="agora__adv"/></e>
+<e lm="do." i="yes">             <i>do.</i><par n="agora__adv"/></e> <!-- interferes with do -->
 <e lm="dom.">            <i>dom</i><par n="agora__adv"/></e>
 <e r="LR" lm="dom">      <p><l>dom.</l>      <r>dom</r></p><par n="agora__adv"/></e>
 <e lm="dosequiera">      <i>dosequiera</i><par n="agora__adv"/></e>
@@ -16949,8 +16952,8 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="ma.">             <i>ma.</i><par n="agora__adv"/></e>
 <e lm="maitín">          <i>maitín</i><par n="agora__adv"/></e>
 <e lm="manyana">         <i>manyana</i><par n="agora__adv"/></e>
-<e lm="mar.">            <i>mar</i><par n="agora__adv"/></e>
-<e r="LR" lm="mar">      <p><l>mar.</l>      <r>mar</r></p><par n="agora__adv"/></e>
+<e lm="mar." i="yes">            <i>mar</i><par n="agora__adv"/></e>
+<e r="LR" lm="mar" i="yes">      <p><l>mar.</l>      <r>mar</r></p><par n="agora__adv"/></e>
 <e r="LR" lm="masiau" i="yes"><p><l>masa</l> <r>masiau</r></p><par n="agora__adv"/></e>
 <e r="LR" lm="masiau">   <p><l>masiato</l>   <r>masiau</r></p><par n="agora__adv"/></e>
 <e lm="masiau">          <i>masiau</i><par n="agora__adv"/></e>
@@ -42852,10 +42855,9 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="Maréchal">        <i>Maréchal</i><par n="Saussure__np"/></e>
 <e lm="Marés">           <i>Marés</i><par n="Saussure__np"/></e>
 <e lm="Marí">            <i>Marí</i><par n="Saussure__np"/></e>
-<e lm="María">           <i>María</i><par n="Abad__np"/></e>
 <e lm="María">           <i>María</i><par n="María__np"/></e>
 <e lm="María Begonia">   <i>María<b/>Begonia</i><par n="María__np"/></e>
-<e lm="María Begoñia">   <i>María<b/>Begoñia</i><par n="María__np"/></e>
+<e lm="María Begoña">   <i>María<b/>Begoña</i><par n="María__np"/></e>
 <e lm="María Belén">     <i>María<b/>Belén</i><par n="María__np"/></e>
 <e lm="María Betania">   <i>María<b/>Betania</i><par n="María__np"/></e>
 <e lm="María Candela">   <i>María<b/>Candela</i><par n="María__np"/></e>
