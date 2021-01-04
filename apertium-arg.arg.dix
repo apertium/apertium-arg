@@ -78,6 +78,7 @@
     <sdef n="sup" /> 
     <sdef n="num" /> 
     <sdef n="ij" /> 
+    <sdef n="ord" c="Ordinal"/>
     <sdef n="sent" /> 
     <sdef n="cm" /> 
     <sdef n="lpar" /> 
@@ -147,27 +148,35 @@
 </pardef>
     
 <pardef n="ordinals">
-  <e>       <re>[13]</re><p><l>r</l><r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-  <e r="LR"><re>[13]</re><p><l>r</l><r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <re>[13]</re><p><l>a</l><r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <re>[13]</re><p><l>rs</l><r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <re>[13]</re><p><l>as</l><r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
-  <e>       <re>2</re><p><l>o</l><r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <re>2</re><p><l>a</l><r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <re>2</re><p><l>os</l><r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <re>2</re><p><l>as</l><r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
-  <e>       <re>[4-9]</re><p><l>o</l><r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-  <e r="LR"><re>[4-9]</re><p><l>n</l><r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <re>[4-9]</re><p><l>a</l><r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <re>[4-9]</re><p><l>os</l><r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-  <e r="LR"><re>[4-9]</re><p><l>ns</l><r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <re>[4-9]</re><p><l>as</l><r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
-  <e>       <re>[1-9]+[0-9]+</re><p><l>o</l><r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-  <e r="LR"><re>[1-9]+[0-9]+</re><p><l>n</l><r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <re>[1-9]+[0-9]+</re><p><l>a</l><r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <re>[1-9]+[0-9]+</re><p><l>os</l><r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-  <e r="LR"><re>[1-9]+[0-9]+</re><p><l>ns</l><r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <re>[1-9]+[0-9]+</re><p><l>as</l><r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <re>[13]</re><p><l>r</l><r><s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><re>[13]</re><p><l>r</l><r><s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <re>[13]</re><p><l>a</l><r><s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <re>[13]</re><p><l>rs</l><r><s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <re>[13]</re><p><l>as</l><r><s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <re>2</re><p><l>o</l><r><s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <re>2</re><p><l>a</l><r><s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <re>2</re><p><l>os</l><r><s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <re>2</re><p><l>as</l><r><s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <re>[4-9]</re><p><l>o</l><r><s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><re>[4-9]</re><p><l>n</l><r><s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <re>[4-9]</re><p><l>a</l><r><s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <re>[4-9]</re><p><l>os</l><r><s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><re>[4-9]</re><p><l>ns</l><r><s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <re>[4-9]</re><p><l>as</l><r><s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <re>[1-9]+[0-9]+</re><p><l>o</l><r><s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><re>[1-9]+[0-9]+</re><p><l>n</l><r><s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <re>[1-9]+[0-9]+</re><p><l>a</l><r><s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <re>[1-9]+[0-9]+</re><p><l>os</l><r><s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><re>[1-9]+[0-9]+</re><p><l>ns</l><r><s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <re>[1-9]+[0-9]+</re><p><l>as</l><r><s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR">       <re>[1-9]</re><p><l>.º</l>          <r><s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR">       <re>[1-9]</re><p><l>.ª</l>          <r><s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR">       <re>[1-9]+[0-9]+</re><p><l>.º</l>    <r><s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR">       <re>[1-9]+[0-9]+</re><p><l>.ª</l>    <r><s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><re>[1-9]</re><p><l>º</l>           <r><s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><re>[1-9]</re><p><l>ª</l>           <r><s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><re>[1-9]+[0-9]+</re><p><l>º</l>     <r><s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><re>[1-9]+[0-9]+</re><p><l>ª</l>     <r><s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
 
 <pardef n="ip">
@@ -8785,24 +8794,41 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
   <e>       <p><l>anam</l>      <r>anam</r></p><par n="malam/ent__adv"/></e>
 </pardef>
 
-<pardef n="dec/eno__adj">
+<pardef n="dec/eno__adj"> <!-- ordinal -->
+  <e>       <p><l>eno</l>       <r>eno<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+
+  <e r="LR"><p><l>én</l>        <r>eno<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+
+  <e>       <p><l>ens</l>       <r>eno<s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+
+  <e r="LR"><p><l>enos</l>      <r>eno<s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+
+  <e r="LR"><p><l>éns</l>       <r>eno<s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+
+  <e>       <p><l>ena</l>       <r>eno<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+
+  <e>       <p><l>enas</l>      <r>eno<s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
+
+</pardef>
+
+
+<pardef n="chech/eno__adj">
   <e>       <p><l>eno</l>       <r>eno<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 
   <e r="LR"><p><l>én</l>        <r>eno<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 
-  <e>       <p><l>ens</l>       <r>eno<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ens</l>       <r>eno<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 
-  <e r="LR"><p><l>enos</l>      <r>eno<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>enos</l>      <r>eno<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 
   <e r="LR"><p><l>éns</l>       <r>eno<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>ena</l>       <r>eno<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
 
   <e>       <p><l>enas</l>      <r>eno<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
-
 </pardef>
 
-<pardef n="obsc/eno__adj_adv">  <!-- como dec/eno pero con adv -->
+<pardef n="obsc/eno__adj_adv">  <!-- como chech/eno pero con adv -->
   <e>       <p><l>eno</l>       <r>eno<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 
   <e r="LR"><p><l>én</l>        <r>eno<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
@@ -9120,34 +9146,42 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
   <e>       <p><l>eram</l>      <r>eram</r></p><par n="malam/ent__adv"/></e>
 </pardef>
 
-<pardef n="zagu/ero__adj">
-  <e>       <p><l>er</l>        <r>er<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<pardef n="prim/ero__adj">
+  <e>       <p><l>er</l>        <r>er<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
 
-  <e r="LR"><p><l>ero</l>       <r>er<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ero</l>       <r>er<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
 
-  <e>       <p><l>ers</l>       <r>er<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ers</l>       <r>er<s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
 
-  <e r="LR"><p><l>eros</l>      <r>er<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>eros</l>      <r>er<s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
 
-  <e>       <p><l>era</l>       <r>er<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>era</l>       <r>er<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
 
-  <e r="LR"><p><l>er</l>        <r>er<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>er</l>        <r>er<s n="adj"/><s n="ord"/><s n="mf"/><s n="sg"/></r></p></e>
 
-  <e>       <p><l>eras</l>      <r>er<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>eras</l>      <r>er<s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
 
 </pardef>
 
-<pardef n="zagu/ero__adj_adv">
-  <e>       <p><l>er</l>        <r>er<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>ero</l>       <r>er<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ers</l>       <r>er<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>eros</l>      <r>er<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+<pardef n="prim/ero__adj_adv">
+  <e>       <p><l>er</l>        <r>er<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ero</l>       <r>er<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ers</l>       <r>er<s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>eros</l>      <r>er<s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
 
-  <e>       <p><l>era</l>       <r>er<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>era</l>       <r>er<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
 
-  <e r="LR"><p><l>er</l>        <r>er<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-  <e>       <p><l>eras</l>      <r>er<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>er</l>        <r>er<s n="adj"/><s n="ord"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>eras</l>      <r>er<s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>eram</l>      <r>eram</r></p><par n="malam/ent__adv"/></e>
+</pardef>
+
+
+<pardef n="segund/o__adj" >
+  <e>       <p><l>as</l>        <r>o<s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>a</l>         <r>o<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>os</l>        <r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>o</l>         <r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
 <pardef n="alt/o__adj">
@@ -11185,7 +11219,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e r="LR" lm="civil">    <p><l>cevil</l>     <r>civil</r></p><par n="social__adj"/></e>
 <e lm="chaponés">        <i>chapon</i><par n="aragon/és__adj"/></e>
 <e lm="checo">           <i>chec</i><par n="academic/o__adj"/></e>
-<e lm="checheno">        <i>chech</i><par n="dec/eno__adj"/></e>
+<e lm="checheno">        <i>chech</i><par n="chech/eno__adj"/></e>
 <e lm="cheneracional">   <i>cheneracional</i><par n="social__adj"/></e>
 <e lm="cheneral">        <i>cheneral</i><par n="social__adj"/></e>
 <e lm="chenial">         <i>chenial</i><par n="social__adj"/></e>
@@ -11197,7 +11231,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="chermanofono">    <i>chermanofon</i><par n="academic/o__adj"/></e>
 <e lm="chiboso">         <i>chibos</i><par n="academic/o__adj"/></e>
 <e lm="chicot">          <i>chic</i><par n="chic/ot__adj"/></e>
-<e lm="chileno">         <i>chil</i><par n="dec/eno__adj"/></e>
+<e lm="chileno">         <i>chil</i><par n="chech/eno__adj"/></e>
 <e lm="chino">           <i>chin</i><par n="academic/o__adj"/></e>
 <e lm="chipriota">       <i>chipriota</i><par n="social__adj"/></e>
 <e lm="chiquet">         <i>chiqu</i><par n="chiqu/et__adj"/></e>
@@ -11363,10 +11397,6 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e r="LR" lm="qualsequier"><p><l>cual</l>    <r>qual</r></p><par n="qual/sequiera__adj"/></e>
 <e r="LR" lm="qualitativo"><p><l>cualitati</l><r>qualitati</r></p><par n="cursi/vo__adj"/></e>
 <e r="LR" lm="quantificable"><p><l>cuantificable</l><r>quantificable</r></p><par n="social__adj"/></e>
-<e r="LR" lm="quatreno"> <p><l>cuart</l>     <r>quatr</r></p><par n="dec/eno__adj"/></e>
-<e r="LR" lm="quatreno"> <p><l>cuart</l>     <r>quatren</r></p><par n="academic/o__adj"/></e>
-<e r="LR" lm="quaternario"><p><l>cuaternari</l><r>quaternari</r></p><par n="academic/o__adj"/></e>
-<e r="LR" lm="quatreno"> <p><l>cuatr</l>     <r>quatr</r></p><par n="dec/eno__adj"/></e>
 <e lm="cubano">          <i>cuban</i><par n="academic/o__adj"/></e>
 <e lm="cubista">         <i>cubista</i><par n="social__adj"/></e>
 <e lm="cucho">           <i>cuch</i><par n="academic/o__adj"/></e>
@@ -11570,7 +11600,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e r="LR" lm="defensor"> <p><l>esfensor</l>  <r>defensor</r></p><par n="opresor__adj"/></e>
 <e r="LR" lm="diferent"> <p><l>esferent</l>  <r>diferent</r></p><par n="social__adj"/></e>
 <e lm="eslavo">          <i>esla</i><par n="cursi/vo__adj"/></e>
-<e lm="esloveno">        <i>eslov</i><par n="dec/eno__adj"/></e>
+<e lm="esloveno">        <i>eslov</i><par n="chech/eno__adj"/></e>
 <e lm="eslovaco">        <i>eslovac</i><par n="academic/o__adj"/></e>
 <e lm="espacial">        <i>espacial</i><par n="social__adj"/></e>
 <e lm="espanyol">        <i>espanyol</i><par n="espanyol__adj"/></e>
@@ -12140,7 +12170,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="minoritario">     <i>minoritari</i><par n="academic/o__adj"/></e>
 <e lm="minusclo">        <i>minuscl</i><par n="academic/o__adj"/></e>
 <e r="LR" lm="minusclo"> <p><l>minuscul</l>  <r>minuscl</r></p><par n="academic/o__adj"/></e>
-<e lm="mioceno">         <i>mioc</i><par n="dec/eno__adj"/></e>
+<e lm="mioceno">         <i>mioc</i><par n="chech/eno__adj"/></e>
 <e lm="miscible">        <i>miscible</i><par n="social__adj"/></e>
 <e lm="miserable">       <i>miserable</i><par n="social__adj"/></e>
 <e lm="misionero">       <i>mision</i><par n="verdad/ero__adj"/></e>
@@ -12255,6 +12285,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="notable">         <i>notable</i><par n="social__adj"/></e>
 <e lm="notarial">        <i>notarial</i><par n="social__adj"/></e>
 <e lm="notorio">         <i>notori</i><par n="academic/o__adj"/></e>
+<e lm="noveno">           <i>nov</i><par n="dec/eno__adj"/></e>
 <e r="LR" lm="nueno">    <p><l>nov</l>       <r>nu</r></p><par n="dec/eno__adj"/></e>
 <e lm="novel">           <i>novel</i><par n="social__adj"/></e>
 <e lm="nublau">          <i>nubla</i><par n="adequa/u__adj"/></e>
@@ -12290,6 +12321,17 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="olfativo">        <i>olfati</i><par n="cursi/vo__adj"/></e>
 <e lm="olimpico">        <i>olimpic</i><par n="academic/o__adj"/></e>
 <e lm="onceno">          <i>onc</i><par n="dec/eno__adj"/></e>
+<e lm="dotzeno">          <i>dotz</i><par n="dec/eno__adj"/></e>
+<e lm="tretzeno">          <i>tretz</i><par n="dec/eno__adj"/></e>
+<e lm="catorceno">          <i>catorc</i><par n="dec/eno__adj"/></e>
+<e lm="quinceno">          <i>quinc</i><par n="dec/eno__adj"/></e>
+<e  r="LR" lm="setzeno">          <i>setz</i><par n="dec/eno__adj"/></e>
+<e lm="deciseiseno">          <i>deciseis</i><par n="dec/eno__adj"/></e>
+<e lm="deciseteno">          <i>deciset</i><par n="dec/eno__adj"/></e>
+<e lm="deciuiteno">          <i>deciuit</i><par n="dec/eno__adj"/></e>
+<e lm="decinoveno">          <i>decinov</i><par n="dec/eno__adj"/></e>
+<e lm="vinteno">          <i>vint</i><par n="dec/eno__adj"/></e>
+<e r="LR" lm="vinteno"> <p><l>vent</l>    <r>vint</r></p><par n="dec/eno__adj"/></e>
 <e lm="ondulatorio">     <i>ondulatori</i><par n="academic/o__adj"/></e>
 <e lm="opaco">           <i>opac</i><par n="academic/o__adj"/></e>
 <e lm="opcional">        <i>opcional</i><par n="social__adj"/></e>
@@ -12402,7 +12444,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="pituitario">      <i>pituitari</i><par n="academic/o__adj"/></e>
 <e lm="pitón">           <i>pitón</i><par n="multimedia__adj"/></e>
 <e r="LR" lm="pior">     <p><l>piyor</l>     <r>pior</r></p><par n="social__adj"/></e>
-<e lm="pleistoceno">     <i>pleistoc</i><par n="dec/eno__adj"/></e>
+<e lm="pleistoceno">     <i>pleistoc</i><par n="chech/eno__adj"/></e>
 <e lm="plusquamperfecto"><i>plusquamperfect</i><par n="academic/o__adj"/></e>
 <e lm="poblacional">     <i>poblacional</i><par n="social__adj"/></e>
 <e lm="poco">            <i>poc</i><par n="poc/o__adj"/></e>
@@ -12512,13 +12554,17 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="qualsequier">     <i>qual</i><par n="qual/sequiera__adj"/></e>
 <e lm="qualitativo">     <i>qualitati</i><par n="cursi/vo__adj"/></e>
 <e lm="quantificable">   <i>quantificable</i><par n="social__adj"/></e>
-<e r="LR" lm="quatreno"> <p><l>quart</l>     <r>quatr</r></p><par n="dec/eno__adj"/></e>
-<e r="LR" lm="quatreno"> <p><l>quart</l>     <r>quatren</r></p><par n="academic/o__adj"/></e>
-<e lm="quaternario">     <i>quaternari</i><par n="academic/o__adj"/></e>
+<e lm="quarto">        <i>quart</i><par n="segund/o__adj"/></e>
+<e r="LR" lm="quarto"> <p><l>cuart</l>     <r>quart</r></p><par n="segund/o__adj"/></e>
 <e lm="quatreno">        <i>quatr</i><par n="dec/eno__adj"/></e>
+<e r="LR" lm="quatreno"> <p><l>cuart</l>     <r>quatr</r></p><par n="dec/eno__adj"/></e>
+<e r="LR" lm="quatreno"> <p><l>cuatr</l>     <r>quatr</r></p><par n="dec/eno__adj"/></e>
+<e r="LR" lm="quatreno"> <p><l>quart</l>     <r>quatr</r></p><par n="dec/eno__adj"/></e>
+<e r="LR" lm="quaternario"><p><l>cuaternari</l><r>quaternari</r></p><par n="academic/o__adj"/></e>
+<e lm="quaternario">     <i>quaternari</i><par n="academic/o__adj"/></e>
 <e lm="queriu">          <i>queri</i><par n="sala/u__adj"/></e>
 <e lm="quimico">         <i>quimic</i><par n="academic/o__adj"/></e>
-<e lm="quinto">          <i>quint</i><par n="academic/o__adj"/></e>
+<e lm="quinto">          <i>quint</i><par n="segund/o__adj"/></e>
 <e lm="quánto">          <i>quánt</i><par n="quánt/o__adj"/></e>
 <e lm="qué">             <i>qué</i><par n="qué__adj"/></e>
 <e lm="racial">          <i>racial</i><par n="social__adj"/></e>
@@ -12649,7 +12695,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="sedentario">      <i>sedentari</i><par n="academic/o__adj"/></e>
 <e lm="sedimentario">    <i>sedimentari</i><par n="academic/o__adj"/></e>
 <e lm="seguiu">          <i>segui</i><par n="sala/u__adj"/></e>
-<e lm="segundo">         <i>segund</i><par n="academic/o__adj"/></e>
+<e lm="segundo">         <i>segund</i><par n="segund/o__adj"/></e>
 <e lm="segundario">      <i>segundari</i><par n="academic/o__adj"/></e>
 <e lm="seguro">          <i>segur</i><par n="alt/o__adj"/></e>
 <e lm="selectivo">       <i>selecti</i><par n="cursi/vo__adj"/></e>
@@ -12676,10 +12722,13 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="sereno">          <i>seren</i><par n="academic/o__adj"/></e>
 <e lm="serio">           <i>seri</i><par n="alt/o__adj"/></e>
 <e lm="serrano">         <i>serran</i><par n="academic/o__adj"/></e>
+<e lm="cinqueno">          <i>cinqu</i><par n="dec/eno__adj"/></e>
+<e r="LR" lm="seiseno"><p><l>sis</l>    <r>seis</r></p><par n="dec/eno__adj"/></e>
+<e lm="seiseno">          <i>seis</i><par n="dec/eno__adj"/></e>
 <e lm="seteno">          <i>set</i><par n="dec/eno__adj"/></e>
 <e lm="severo">          <i>sev</i><par n="verdad/ero__adj"/></e>
 <e lm="sevillano">       <i>sevillan</i><par n="academic/o__adj"/></e>
-<e lm="sexto">           <i>sext</i><par n="academic/o__adj"/></e>
+<e lm="sexto">           <i>sext</i><par n="segund/o__adj"/></e>
 <e lm="sexual">          <i>sexual</i><par n="social__adj"/></e>
 <e lm="siciliano">       <i>sicilian</i><par n="academic/o__adj"/></e>
 <e lm="sideral">         <i>sideral</i><par n="social__adj"/></e>
@@ -12783,7 +12832,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="tenue">           <i>tenue</i><par n="social__adj"/></e>
 <e lm="teorico">         <i>teoric</i><par n="academic/o__adj"/></e>
 <e lm="terapeutico">     <i>terapeutic</i><par n="academic/o__adj"/></e>
-<e lm="tercer">          <i>terc</i><par n="zagu/ero__adj"/></e>   <!-- primero, zaguero, tercero... -->
+<e lm="tercer">          <i>terc</i><par n="prim/ero__adj"/></e>   <!-- primero, zaguero, tercero... -->
 <e lm="terciario">       <i>terciari</i><par n="academic/o__adj"/></e>
 <e lm="termal">          <i>termal</i><par n="social__adj"/></e>
 <e lm="terminal">        <i>terminal</i><par n="social__adj"/></e>
@@ -12804,7 +12853,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="tierno">          <i>tiern</i><par n="alt/o__adj"/></e>
 <e lm="tinto">           <i>tint</i><par n="academic/o__adj"/></e>
 <e lm="tipico">          <i>tipic</i><par n="academic/o__adj"/></e>
-<e lm="tirreno">         <i>tirr</i><par n="dec/eno__adj"/></e>
+<e lm="tirreno">         <i>tirr</i><par n="chech/eno__adj"/></e>
 <e lm="titular">         <i>titular</i><par n="social__adj"/></e>
 <e r="LR" lm="tovo">     <p><l>tob</l>       <r>tov</r></p><par n="alt/o__adj"/></e>
 <e lm="toled">           <i>toled</i><par n="occit/án__adj"/></e>
@@ -13034,7 +13083,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
     <!-- ******************************
           group adj_adv
       ****************************** -->
-<e r="LR" lm="antezaguer"><p><l>abantzagu</l><r>antezagu</r></p><par n="zagu/ero__adj_adv"/></e>
+<e r="LR" lm="antezaguer"><p><l>abantzagu</l><r>antezagu</r></p><par n="prim/ero__adj_adv"/></e>
 <e lm="abastable">       <i>abastable</i><par n="social__adj_adv"/></e>
 <e lm="abchecto">        <i>abchect</i><par n="academic/o__adj_adv"/></e>
 <e lm="abdominal">       <i>abdominal</i><par n="social__adj_adv"/></e>
@@ -13209,7 +13258,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="ansioso">         <i>ansios</i><par n="alt/o__adj_adv"/></e>
 <e lm="antagonico">      <i>antagonic</i><par n="academic/o__adj_adv"/></e>
 <e lm="anterior">        <i>anterior</i><par n="social__adj_adv"/></e>
-<e lm="antezaguer">      <i>antezagu</i><par n="zagu/ero__adj_adv"/></e>   <!-- primero, zaguero, tercero... -->
+<e lm="antezaguer">      <i>antezagu</i><par n="prim/ero__adj_adv"/></e>   <!-- primero, zaguero, tercero... -->
 <e lm="anticipau">       <i>anticipa</i><par n="adequa/u__adj_adv"/></e>
 <e lm="anticlinal">      <i>anticlinal</i><par n="social__adj_adv"/></e>
 <e lm="antidemocratico"> <i>antidemocratic</i><par n="academic/o__adj_adv"/></e>
@@ -13786,7 +13835,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="cutiano">         <i>cutian</i><par n="academic/o__adj_adv"/></e>
 <e lm="dactilar">        <i>dactilar</i><par n="social__adj_adv"/></e>
 <e lm="daltonico">       <i>daltonic</i><par n="academic/o__adj_adv"/></e>
-<e r="LR" lm="antezaguer"><p><l>debantzagu</l><r>antezagu</r></p><par n="zagu/ero__adj_adv"/></e>
+<e r="LR" lm="antezaguer"><p><l>debantzagu</l><r>antezagu</r></p><par n="prim/ero__adj_adv"/></e>
 <e lm="debiu">           <i>debi</i><par n="adequa/u__adj_adv"/></e>
 <e lm="debiu">           <i>debi</i><par n="adequa/u__adj_adv"/></e>
 <e lm="debil">           <i>debil</i><par n="social__adj_adv"/></e>
@@ -15771,7 +15820,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="previsible">      <i>previsible</i><par n="social__adj_adv"/></e>
 <e lm="previsto">        <i>previst</i><par n="academic/o__adj_adv"/></e>
 <e lm="prezoso">         <i>prezos</i><par n="academic/o__adj_adv"/></e>
-<e lm="primer">          <i>prim</i><par n="zagu/ero__adj_adv"/></e>   <!-- primero, zaguero, tercero... -->
+<e lm="primer">          <i>prim</i><par n="prim/ero__adj_adv"/></e>   <!-- primero, zaguero, tercero... -->
 <e lm="primario" a="prompsit2uoc"><i>primari</i><par n="academic/o__adj_adv"/></e>
 <e lm="primerenco">      <i>primerenc</i><par n="academic/o__adj_adv"/></e>
 <e lm="primichenio">     <i>primicheni</i><par n="academic/o__adj_adv"/></e>
@@ -16545,7 +16594,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e r="LR" lm="ixuto">    <p><l>xut</l>       <r>ixut</r></p><par n="alt/o__adj_adv"/></e>
 <e lm="yambico">         <i>yambic</i><par n="academic/o__adj_adv"/></e>
 <e lm="yermo">           <i>yerm</i><par n="academic/o__adj_adv"/></e>
-<e lm="zaguer">          <i>zagu</i><par n="zagu/ero__adj_adv"/></e>   <!-- primero, zaguero, tercero... -->
+<e lm="zaguer">          <i>zagu</i><par n="prim/ero__adj_adv"/></e>   <!-- primero, zaguero, tercero... -->
 <e lm="zaragozano">      <i>zaragoz</i><par n="tard/ano__adj_adv"/></e>
 <e lm="zeloso">          <i>zelos</i><par n="alt/o__adj_adv"/></e>
 <e lm="zenital">         <i>zenital</i><par n="social__adj_adv"/></e>
@@ -22552,6 +22601,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="mierda">          <i>mierda</i><par n="luenga__n"/></e>
 <e lm="mierques">        <i>mierques</i><par n="campus__n"/></e>
 <e lm="migración">       <i>migra</i><par n="actua/ción__n"/></e>
+<e lm="mil">           <i>mil</i><par n="libro__n"/></e>
 <e lm="milanista">       <i>milanista</i><par n="accionista__n"/></e>
 <e lm="milanista">       <i>milanista</i><par n="accionista__n"/></e>
 <e lm="milar">           <i>milar</i><par n="libro__n"/></e>
@@ -24186,6 +24236,8 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="salvación">       <i>salva</i><par n="actua/ción__n"/></e>
 <e lm="salvador">        <i>salvador</i><par n="treballador__n"/></e>
 <e lm="salvoconducto">   <i>salvoconducto</i><par n="libro__n"/></e>
+<e lm="sant">   <i>sant</i><par n="atletismo__n"/></e>
+<e r="LR" lm="sant">   <p><l>san</l>    <r>sant</r></p><par n="atletismo__n"/></e>
 <e lm="sanción">         <i>san</i><par n="actua/ción__n"/></e>
 <e lm="sandalia">        <i>sandalia</i><par n="luenga__n"/></e>
 <e lm="sandinista">      <i>sandinista</i><par n="accionista__n"/></e>
@@ -49335,7 +49387,9 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="Sansón" a="hector"><i>Sansón</i><par n="Saussure__np"/></e>
 <e lm="Sansón">          <i>Sansón</i><par n="Marc__np"/></e>
 <e lm="Sant">            <i>Sant</i><par n="ABC__np"/></e>
+<e r="LR" lm="Sant"><p><l>San</l><r>Sant</r></p><par n="ABC__np"/></e>
 <e lm="Sant" a="hector"> <i>Sant</i><par n="Saussure__np"/></e>
+<e r="LR" lm="Sant"><p><l>San</l><r>Sant</r></p><par n="Saussure__np"/></e>
 <e lm="Sant Adrià de Besòs"><i>Sant<b/>Adrià<b/>de<b/>Besòs</i><par n="Irán__np"/></e>
 <e lm="Sant Agustí de Lluçanès"><i>Sant<b/>Agustí<b/>de<b/>Lluçanès</i><par n="Irán__np"/></e>
 <e lm="Sant Albert Magne"><i>Sant<b/>Albert<b/>Magne</i><par n="Marc__np"/></e>

@@ -455,6 +455,85 @@
     </pardef>
 -->
    
+   
+   <pardef n="en2"> 
+      <e>
+        <p>
+          <l></l>
+          <r>en</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      
+        <e>
+        <p>
+          <l><b/></l>
+          <r>en<b/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l><b/><a/>a<b/></l>
+          <r>en<b/>a<b/></r>
+        </p>
+      </e>
+      <e>
+      <p>
+          <l><b/><a/>o<b/></l>
+          <r>en<b/>o<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>en<b/>l'</r>
+        </p>
+        <par n="vocals_apost" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>en<b/>o<b/></r>
+        </p>
+        <par n="vocals_no_apost" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>en<b/>o<b/></r>
+        </p>
+        <par n="vocals_no_apost_o" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>a<b/></l>
+          <r>en<b/>l'</r>
+        </p>
+        <par n="vocals_apost_a" />
+      </e>      
+      <e>
+        <p>
+          <l><b/><a/>as<b/></l>
+          <r>en<b/>as<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>os<b/></l>
+          <r>en<b/>os<b/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l/>
+          <r>en</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+    </pardef>
+
    <pardef n="le">
       <e>
         <p>
@@ -628,6 +707,14 @@
 
       <e>
         <p>
+          <l><b/><a/>en2</l>
+          <r>d'</r>
+        </p>
+        <par n="en2"/>
+      </e>
+
+      <e>
+        <p>
           <l><b/><a/></l>
           <r>d'</r>
         </p>
@@ -762,84 +849,7 @@
         <par n="el"/>
       </e>      
       -->
-    </pardef>
 
-   <pardef n="en2"> 
-      <e>
-        <p>
-          <l></l>
-          <r>en</r>
-        </p>
-        <par n="caracter_general"/>
-      </e>
-      
-        <e>
-        <p>
-          <l><b/></l>
-          <r>en<b/></r>
-        </p>
-      </e>
-      
-      <e>
-        <p>
-          <l><b/><a/>a<b/></l>
-          <r>en<b/>a<b/></r>
-        </p>
-      </e>
-      <e>
-      <p>
-          <l><b/><a/>o<b/></l>
-          <r>en<b/>o<b/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l><b/><a/>o<b/></l>
-          <r>en<b/>l'</r>
-        </p>
-        <par n="vocals_apost" />
-      </e>
-      <e>
-        <p>
-          <l><b/><a/>o<b/></l>
-          <r>en<b/>o<b/></r>
-        </p>
-        <par n="vocals_no_apost" />
-      </e>
-      <e>
-        <p>
-          <l><b/><a/>o<b/></l>
-          <r>en<b/>o<b/></r>
-        </p>
-        <par n="vocals_no_apost_o" />
-      </e>
-      <e>
-        <p>
-          <l><b/><a/>a<b/></l>
-          <r>en<b/>l'</r>
-        </p>
-        <par n="vocals_apost_a" />
-      </e>      
-      <e>
-        <p>
-          <l><b/><a/>as<b/></l>
-          <r>en<b/>as<b/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l><b/><a/>os<b/></l>
-          <r>en<b/>os<b/></r>
-        </p>
-      </e>
-      
-      <e>
-        <p>
-          <l/>
-          <r>en</r>
-        </p>
-        <par n="caracter_general"/>
-      </e>
     </pardef>
 
 
@@ -1936,7 +1946,6 @@
         </p>
       </e> 
 -->      
-
   </section>
 
 </dictionary>
