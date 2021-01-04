@@ -79,12 +79,18 @@
   </def-label>
   <def-label name="ANTROPONIM">
     <tags-item tags="np.ant"/>
+	<tags-item tags="np.ant.*"/>
+    <tags-item tags="np.cog"/>
+	<tags-item tags="np.cog.*"/>
   </def-label>
   <def-label name="TOPONIM">
     <tags-item tags="np.loc"/>
+    <tags-item tags="np.top"/>
+	<tags-item tags="np.top.*"/>
   </def-label>
   <def-label name="NPALTRES">
     <tags-item tags="np.al"/>
+	<tags-item tags="np.al.*"/>
   </def-label>
   <def-label name="NUM" closed="true">
     <tags-item tags="num.*"/>
