@@ -58611,7 +58611,6 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="seccionar">       <i>seccion</i><par n="cant/ar__vblex"/></e>
 <e lm="secundar">        <i>secund</i><par n="cant/ar__vblex"/></e>
 <e lm="seducir">         <i>sedu</i><par n="dedu/cir__vblex"/></e>
-<e r="LR" lm="secundar"> <p><l>segund</l>    <r>secund</r></p><par n="cant/ar__vblex"/></e>
 <e lm="seleccionar">     <i>seleccion</i><par n="cant/ar__vblex"/></e>
 <e lm="sembrar">         <i>sembr</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
 <e r="LR" lm="sembrar">  <i>sembr</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
