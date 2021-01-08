@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Aragonese], [0.1.3], [apertium-stuff@lists.sourceforge.net], [apertium-arg], [http://wiki.apertium.org/wiki/Apertium-arg])
+AC_INIT([Apertium Aragonese], [0.1.4], [apertium-stuff@lists.sourceforge.net], [apertium-arg], [https://wiki.apertium.org/wiki/Apertium-arg])
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
