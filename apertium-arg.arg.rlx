@@ -144,7 +144,12 @@ SET EntendimientoWords = ("falta") OR ("Falta") OR ("buscar") OR ("Buscar") OR (
 ###############################################################################
 #  Morphological disambiguation
 #
+
 SECTION
+
+#Provisional, to avoid una -> uneixi
+SELECT:una Det IF (0 ("<una>"i));  
+SELECT:unas Det IF (0 ("<unas>"i));
 
 REMOVE:r_cuanto_vblex_1 N IF (0 Vblex) (0 (n f)) (-1 AdjItgM) (-1 PrnItgM);
 SELECT:r_deber_vbmod_1 Vbmod IF (0 Deber) (1 (vblex inf)) (NOT 1 N);
