@@ -1,0 +1,15 @@
+Jan 8, 2021
+* Release 0.1.4 (and 0.1.3)
+* Just small fixes since release 0.1.3 in order to clear testvoc and work fine with current version of apertium-spa and apertium-arg. See apertium-spa-arg and apertium-arg-cat for the release history
+   * Added constraint grammar support (included in spa->arg direction, added support in arg->spa direction)
+   * Changed arg.prob file
+   * Adapted to changes in apertium-spa and apertium-arg
+   * Added support for new np labels and acronyms
+   * Definite articles generated according to "Gramatica Basica de l'Aragonés" neutral standard paradigm.
+   * Support for short ordinals and digital hour
+   * Improved apostrophation rules in post generation. Fix problems with "de + en (prep)".
+   * Added support for superlatives with "muito/muit/molt"
+   * Minor fixes performed
+   * Monolingual dictionary: 
+	 > 573 paradigms
+     > 48107 lemmae (29627 proper nouns)
