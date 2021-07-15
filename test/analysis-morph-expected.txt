@@ -1,0 +1,22 @@
+[AEaN1Up3JJkI#0] ^dan/dar<vblex><pri><p3><pl>$ ^el/o<det><def><m><sg>/lo<prn><pro><p3><nt>/lo<prn><pro><p3><m><sg>/ell<prn><tn><p3><m><sg>$ ^risrrán/*risrrán$ ^dʼ/de<pr>$
+[/AEaN1Up3JJkI]
+[Hnw0n658Hnc2#0] ^sʼ/se<prn><pro><ref><p3><mf><sp>$
+[/Hnw0n658Hnc2]
+[Muuxq8wcYBzr#0] ^(/(<lpar>$
+[/Muuxq8wcYBzr]
+[NCFBkOjA1GBZ#0] ^¿/¿<lquest>$
+[/NCFBkOjA1GBZ]
+[XnabiXiNVHre#0] ^s'/se<prn><pro><ref><p3><mf><sp>$
+[/XnabiXiNVHre]
+[_csi5dI0RFS2#0] ^yértdn/*yértdn$
+[/_csi5dI0RFS2]
+[c_cmeVYtI-uq#0] ^anda dimpués dʼ/dica dimpués de<pr>$
+[/c_cmeVYtI-uq]
+[pFDmeLRV5CTH#0] ^fuoaunVjssnld/*fuoaunVjssnld$
+[/pFDmeLRV5CTH]
+[sOmmuZBPmwvx#0] ^mʼ/me<prn><pro><p1><mf><sg>$
+[/sOmmuZBPmwvx]
+[u3IIvJtdfATx#0] ^!/!<sent>$
+[/u3IIvJtdfATx]
+[ul7FHQekrA6V#0] ^)/)<rpar>$
+[/ul7FHQekrA6V]
