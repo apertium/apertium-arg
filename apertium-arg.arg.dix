@@ -11662,7 +11662,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="estacionario">    <i>estacionari</i><par n="academic/o__adj"/></e>
 <e r="LR" lm="estadistico"><p><l>estadistic</l><r>estatistic</r></p><par n="academic/o__adj"/></e>
 <e lm="estalinista">     <i>estalinista</i><par n="social__adj"/></e>
-<e lm="estandard">       <i>estandard</i><par n="multimedia__adj"/></e>
+<e lm="standard">       <i>standard</i><par n="multimedia__adj"/></e>
 <e r="LR" lm="estandard"><p><l>estandard</l> <r>estandard</r></p><par n="multimedia__adj"/></e>
 <e lm="estatal">         <i>estatal</i><par n="social__adj"/></e>
 <e lm="estatistico">     <i>estatistic</i><par n="academic/o__adj"/></e>
@@ -11682,8 +11682,9 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="estudiantil">     <i>estudiantil</i><par n="social__adj"/></e>
 <e lm="estudioso">       <i>estudios</i><par n="alt/o__adj"/></e>
 <e lm="estupendo">       <i>estupend</i><par n="academic/o__adj"/></e>
-<e r="LR" lm="estandard"><p><l>estándar</l>  <r>estandard</r></p><par n="multimedia__adj"/></e>
-<e r="LR" lm="estandard"><p><l>estándard</l> <r>estandard</r></p><par n="multimedia__adj"/></e>
+<e r="LR" lm="standard"><p><l>estándar</l>  <r>standard</r></p><par n="multimedia__adj"/></e>
+<e r="LR" lm="standard"><p><l>estándard</l> <r>standard</r></p><par n="multimedia__adj"/></e>
+<e r="LR" lm="standard"><p><l>estandard</l> <r>standard</r></p><par n="multimedia__adj"/></e>
 <e r="LR" lm="esteril">  <p><l>estéril</l>   <r>esteril</r></p><par n="social__adj"/></e>
 <e lm="etarra">          <i>etarra</i><par n="social__adj"/></e>
 <e lm="eterno">          <i>etern</i><par n="academic/o__adj"/></e>
@@ -11875,7 +11876,6 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="hexagonal">       <i>hexagonal</i><par n="social__adj"/></e>
 <e lm="hibernal">        <i>hibernal</i><par n="social__adj"/></e>
 <e lm="hibrido">         <i>hibrid</i><par n="academic/o__adj"/></e>
-<e lm="hidráulico">      <i>hidráulic</i><par n="academic/o__adj"/></e>
 <e lm="hindú">           <i>hindú</i><par n="social__adj"/></e>
 <e lm="hispano">         <i>hispan</i><par n="academic/o__adj"/></e>
 <e lm="hispanico">       <i>hispanic</i><par n="academic/o__adj"/></e>
@@ -11887,13 +11887,13 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="honorario">       <i>honorari</i><par n="academic/o__adj"/></e>
 <e lm="horario">         <i>horari</i><par n="academic/o__adj"/></e>
 <e lm="horizontal">      <i>horizontal</i><par n="social__adj"/></e>
-<e lm="hospitalario">    <i>hospitalari</i><par n="academic/o__adj"/></e>
+<e lm="hespitalario">    <i>hespitalari</i><par n="academic/o__adj"/></e>
     <!-- <e lm="humano"><i>hum</i><par n="cristi/ano__n"/></e> -->
 <e lm="humán">           <i>hum</i><par n="occit/án__adj"/></e>
 <e lm="humil">           <i>humil</i><par n="social__adj"/></e>
 <e r="LR" lm="humil">    <p><l>humilde</l>   <r>humil</r></p><par n="social__adj"/></e>
 <e lm="húmedo">          <i>húmed</i><par n="academic/o__adj"/></e>
-<e lm="húngaro">         <i>húngar</i><par n="academic/o__adj"/></e>
+<e lm="hongaro">         <i>hongar</i><par n="academic/o__adj"/></e>
 <e lm="iberico">         <i>iberic</i><par n="academic/o__adj"/></e>
 <e r="LR" lm="hibernal"> <p><l>ibernal</l>   <r>hibernal</r></p><par n="social__adj"/></e>
 <e lm="iberoamericano">  <i>iberoameric</i><par n="occit/án__adj"/></e>
@@ -13419,7 +13419,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="asociativo">      <i>asociati</i><par n="cursi/vo__adj_adv"/></e>
 <e lm="aspro">           <i>aspr</i><par n="alt/o__adj_adv"/></e>
 <e lm="astronomico">     <i>astronomic</i><par n="academic/o__adj_adv"/></e>
-<e lm="astuto">          <i>astut</i><par n="academic/o__adj_adv"/></e>
+<e lm="estuto">          <i>estut</i><par n="academic/o__adj_adv"/></e>
 <e lm="asumible">        <i>asumible</i><par n="social__adj_adv"/></e>
 <e lm="atabalau">        <i>atabala</i><par n="adequa/u__adj_adv"/></e>
 <e lm="atacant">         <i>atac</i><par n="degrad/ant__adj_adv"/></e>
@@ -19944,6 +19944,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e r="LR" lm="contracto"><p><l>contrato</l>  <r>contracto</r></p><par n="libro__n"/></e>
 <e lm="contravención" a="prompsit2uoc"><i>contraven</i><par n="actua/ción__n"/></e>
 <e lm="contribución">    <i>contribu</i><par n="actua/ción__n"/></e>
+<e lm="contribución" r="LR">    <p><l>contrebu</l><r>contribu</r></p><par n="actua/ción__n"/></e>
 <e lm="control">         <i>control</i><par n="libro__n"/></e>
 <e lm="controlador">     <i>controlador</i><par n="treballador__n"/></e>
 <e lm="contundencia">    <i>contundencia</i><par n="luenga__n"/></e>
@@ -21085,8 +21086,9 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="estampación" a="prompsit2uoc"><i>estampa</i><par n="actua/ción__n"/></e>
 <e lm="estancamiento">   <i>estanca</i><par n="achunta/miento__n"/></e>
 <e lm="estancia">        <i>estancia</i><par n="luenga__n"/></e>
-<e lm="estandardización" a="prompsit2uoc"><i>estandardiza</i><par n="actua/ción__n"/></e>
-<e r="LR" lm="estandardización"><p><l>estandariza</l><r>estandardiza</r></p><par n="actua/ción__n"/></e>
+<e lm="estandardización" a="prompsit2uoc"><i>standardiza</i><par n="actua/ción__n"/></e>
+<e r="LR" lm="estandardización"><p><l>estandariza</l><r>standardiza</r></p><par n="actua/ción__n"/></e>
+<e r="LR" lm="estandardización"><p><l>estandardiza</l><r>standardiza</r></p><par n="actua/ción__n"/></e>
 <e lm="estanflación" a="prompsit2uoc"><i>estanfla</i><par n="actua/ción__n"/></e>
 <e lm="estanqueidat">    <i>estanqueid</i><par n="privacid/at__n"/></e>
 <e lm="estatismo">       <i>estatismo</i><par n="libro__n"/></e>
@@ -57339,6 +57341,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e r="LR" lm="contradecir"><p><l>contradi</l><r>contrade</r></p><par n="dedu/cir__vblex"/></e>
 <e lm="contrastar">      <i>contrast</i><par n="cant/ar__vblex"/></e>
 <e lm="contribuir">      <i>contribu</i><par n="inclu/ir__vblex"/></e>
+<e lm="contribuir"  r="LR">      <p><l>contrebu</l><r>contribu</r></p><par n="inclu/ir__vblex"/></e>
 <e lm="contrimostrar">   <i>contrimostr</i><par n="recomend/ar_nd__vblex"/></e>
 <e lm="contrimostrar">   <p><l>contrimuestr</l><r>contrimostr</r></p><par n="recomiend/o_d__vblex"/></e>
 <e lm="controlar">       <i>control</i><par n="cant/ar__vblex"/></e>
