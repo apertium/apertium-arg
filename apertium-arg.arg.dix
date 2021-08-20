@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--
 	Dictionary:
 	Sections: 4
@@ -9684,7 +9684,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 
 
 
-<pardef n="vali/ent__adj">
+<pardef n="dol/ent__adj">
   <e>       <p><l>ent</l>       <r>ent<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>én</l>        <r>ent<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>ente</l>      <r>ent<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
@@ -9703,7 +9703,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 </pardef>
 
 
-<pardef n="vali/ent__adj_adv">
+<pardef n="dol/ent__adj_adv">
   <e>       <p><l>ent</l>       <r>ent<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>én</l>        <r>ent<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>ente</l>      <r>ent<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
@@ -10878,6 +10878,16 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
   <e>       <p><l>etas</l>      <r>et<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
+<pardef n="negr/ut__adj">
+  <e>       <p><l>ut</l>        <r>ut<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>uta</l>       <r>ut<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>utz</l>       <r>ut<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>uts</l>       <r>ut<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>uz</l>        <r>ut<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>utas</l>      <r>ut<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
+
 <pardef n="clo/t__n">
   <e>       <p><l>t</l>         <r>t<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>tz</l>        <r>t<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -11503,6 +11513,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="directo">         <i>direct</i><par n="alt/o__adj"/></e>
 <e lm="directivo">       <i>directi</i><par n="cursi/vo__adj"/></e>
 <e lm="dirichent">       <i>dirich</i><par n="difer/ent__adj"/></e>
+<e r="LR" lm="dirichent">       <i>dirich</i><par n="dol/ent__adj"/></e>
 <e lm="discreto">        <i>discret</i><par n="alt/o__adj"/></e>
 <e lm="discutible">      <i>discutible</i><par n="social__adj"/></e>
 <e lm="disperso">        <i>dispers</i><par n="alt/o__adj"/></e>
@@ -11525,7 +11536,8 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="docent">          <i>doc</i><par n="difer/ent__adj"/></e>
 <e lm="doctoral">        <i>doctoral</i><par n="social__adj"/></e>
 <e lm="documental">      <i>documental</i><par n="social__adj"/></e>
-<e lm="dolent">          <i>dol</i><par n="vali/ent__adj"/></e>
+<e lm="dolent">          <i>dol</i><par n="dol/ent__adj"/></e>
+<e lm="parient">          <i>pari</i><par n="dol/ent__adj"/></e>
 <e lm="doloroso">        <i>doloros</i><par n="alt/o__adj"/></e>
 <e lm="domestico">       <i>domestic</i><par n="academic/o__adj"/></e>
 <e lm="domiciliario">    <i>domiciliari</i><par n="academic/o__adj"/></e>
@@ -11675,8 +11687,8 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="exacherau">       <i>exachera</i><par n="sala/u__adj"/></e>
 <e lm="exacto">          <i>exact</i><par n="alt/o__adj"/></e>
 <e lm="excelent">        <i>excel</i><par n="difer/ent__adj"/></e>
+<e r="LR" lm="excelent">        <i>excel</i><par n="urch/ent__adj"/></e>
 <e lm="excelso">         <i>excels</i><par n="alt/o__adj"/></e>
-<e lm="excepcional">     <i>excepcional</i><par n="social__adj"/></e>
 <e lm="excesivo">        <i>excesi</i><par n="cursi/vo__adj"/></e>
 <e lm="exclusivo">       <i>exclusi</i><par n="cursi/vo__adj"/></e>
 <e lm="excursionista">   <i>excursionista</i><par n="social__adj"/></e>
@@ -12256,6 +12268,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="neerlandés">      <i>neerland</i><par n="aragon/és__adj"/></e>
 <e lm="negativo">        <i>negati</i><par n="cursi/vo__adj"/></e>
 <e lm="negro">           <i>negr</i><par n="alt/o__adj"/></e>
+<e lm="negrut"><i>negr</i><par n="negr/ut__adj"/></e>
 <e lm="nervioso">        <i>nervios</i><par n="alt/o__adj"/></e>
 <e r="LR" lm="necesario"><p><l>nesezari</l>  <r>necesari</r></p><par n="academic/o__adj"/></e>
 <e lm="neto">            <i>net</i><par n="alt/o__adj"/></e>
@@ -12302,7 +12315,6 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="obsoleto">        <i>obsolet</i><par n="academic/o__adj"/></e>
 <e lm="obvio">           <i>obvi</i><par n="academic/o__adj"/></e>
 <e lm="ocasional">       <i>ocasional</i><par n="social__adj"/></e>
-<e lm="occidental">      <i>occidental</i><par n="social__adj"/></e>
 <e lm="occitán">         <i>occit</i><par n="occit/án__adj"/></e>
 <e lm="ochival">         <i>ochival</i><par n="social__adj"/></e>
 <e lm="ocular">          <i>ocular</i><par n="social__adj"/></e>
@@ -12827,8 +12839,6 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="territorial">     <i>territorial</i><par n="social__adj"/></e>
 <e lm="terrorista">      <i>terrorista</i><par n="social__adj"/></e>
 <e lm="testimonial">     <i>testimonial</i><par n="social__adj"/></e>
-<e lm="textil">          <i>textil</i><par n="social__adj"/></e>
-<e lm="textual">         <i>textual</i><par n="social__adj"/></e>
 <e r="LR" lm="teatral">  <p><l>teyatral</l>  <r>teatral</r></p><par n="social__adj"/></e>
 <e lm="tibetano">        <i>tibetan</i><par n="academic/o__adj"/></e>
 <e lm="tibial">          <i>tibial</i><par n="social__adj"/></e>
@@ -14631,6 +14641,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="guipuzcuano">     <i>guipuzcu</i><par n="tard/ano__adj_adv"/></e>
 <e lm="gustoso">         <i>gustos</i><par n="academic/o__adj_adv"/></e>
 <e lm="habil">           <i>habil</i><par n="social__adj_adv"/></e>
+<e r="LR" lm="habil"><p><l>hábil</l><r>habil</r></p><par n="social__adj"/></e>
 <e lm="habitable">       <i>habitable</i><par n="social__adj_adv"/></e>
 <e lm="habitual">        <i>habitual</i><par n="social__adj_adv"/></e>
 <e lm="harmonico">       <i>harmonic</i><par n="academic/o__adj_adv"/></e>
@@ -14970,6 +14981,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="ingravido">       <i>ingravid</i><par n="academic/o__adj_adv"/></e>
 <e lm="ingubernable">    <i>ingubernable</i><par n="social__adj_adv"/></e>
 <e lm="inhabil">         <i>inhabil</i><par n="social__adj_adv"/></e>
+<e r="LR" lm="inhabil"><p><l>inhábil</l><r>inhabil</r></p><par n="social__adj"/></e>
 <e lm="inherent">        <i>inher</i><par n="difer/ent__adj_adv"/></e>
 <e lm="inhibitorio">     <i>inhibitori</i><par n="academic/o__adj_adv"/></e>
 <e lm="inhospito">       <i>inhospit</i><par n="academic/o__adj_adv"/></e>
@@ -15518,6 +15530,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="nutritivo">       <i>nutriti</i><par n="cursi/vo__adj_adv"/></e>
 <e lm="obchectivo">      <i>obchecti</i><par n="cursi/vo__adj_adv"/></e>
 <e lm="obedient">        <i>obedi</i><par n="difer/ent__adj_adv"/></e>
+<e r="LR" lm="obedient">       <i>obedi</i><par n="dol/ent__adj_adv"/></e>
 <e r="LR" lm="ubierto">  <p><l>obiert</l>    <r>ubiert</r></p><par n="academic/o__adj_adv"/></e>
 <e lm="obligau">         <i>obliga</i><par n="adequa/u__adj_adv"/></e>
 <e lm="obligatorio">     <i>obligatori</i><par n="academic/o__adj_adv"/></e>
@@ -16497,7 +16510,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="vago">            <i>vag</i><par n="academic/o__adj_adv"/></e>
 <e lm="vagabundo">       <i>vagabund</i><par n="academic/o__adj_adv"/></e>
 <e lm="valeroso">        <i>valeros</i><par n="alt/o__adj_adv"/></e>
-<e lm="valient">         <i>vali</i><par n="vali/ent__adj_adv"/></e>
+<e lm="valient">         <i>vali</i><par n="dol/ent__adj_adv"/></e>
 <e lm="valido">          <i>valid</i><par n="academic/o__adj_adv"/></e>
 <e lm="valioso">         <i>valios</i><par n="academic/o__adj_adv"/></e>
 <e lm="valorativo">      <i>valorati</i><par n="cursi/vo__adj_adv"/></e>
@@ -57912,6 +57925,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e r="LR" lm="ixoriar">  <p><l>hor</l>       <r>ixor</r></p><par n="clar/iar__vblex"/></e>
 <e lm="humedir">         <i>humed</i><par n="aclar/ir__vblex"/></e>
 <e r="LR" lm="chitar">   <p><l>ich</l>       <r>chit</r></p><par n="cant/ar__vblex"/></e>
+<e r="LR" lm="chitar">   <p><l>chet</l>       <r>chit</r></p><par n="cant/ar__vblex"/></e>
 <e lm="identificar">     <i>identifi</i><par n="trafu/car__vblex"/></e>
 <e lm="ideyar">          <i>idey</i><par n="cant/ar__vblex"/></e>
 <e lm="ignorar">         <i>ignor</i><par n="cant/ar__vblex"/></e>
@@ -58923,6 +58937,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
       ****************************** -->
 <e lm="a que">           <p><l>a<b/>que</l>  <r>a<b/>que<s n="cnjsub"/></r></p></e>
 <e lm="tot">             <i>to</i><par n="to/t__predet"/></e>
+
   </section>
   <section id="apostrophes" type="postblank">
     <!-- ******************************
