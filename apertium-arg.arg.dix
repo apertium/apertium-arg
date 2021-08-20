@@ -9522,6 +9522,15 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
     
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
+
+<pardef n="barfulair/e__adj">
+  <e>       <p><l>e</l>          <r><s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+    
+  <e>       <p><l>es</l>         <r><s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e r="LR">       <p><l>a</l>          <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+    
+  <e r="LR">       <p><l>as</l>         <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
     
 <pardef n="social__adj_adv">
   <e>       <p><l></l>          <r><s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -10270,13 +10279,17 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
   <e r="LR"><p><l>án</l>        <r>ant<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
-<pardef n="pelaire__n">
+<pardef n="albeitar__n">
   <e>       <p><l>s</l>         <r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-
   <e>       <p><l></l>          <r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
-
 </pardef>
 
+<pardef n="pelair/e__n">
+  <e>       <p><l>es</l>         <r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>          <r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e r="LR">       <p><l>as</l>         <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR">       <p><l>a</l>          <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+</pardef>
 
     
 <pardef n="privacid/at__n">
@@ -12996,6 +13009,14 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="zonal">           <i>zonal</i><par n="social__adj"/></e>
 <e lm="zurdo">           <i>zurd</i><par n="academic/o__adj"/></e>
 <e r="LR" lm="útil">     <p><l>útil</l>      <r>util</r></p><par n="social__adj"/></e>
+<e lm="bambolaire"><i>bambolair</i><par n="barfulair/e__adj"/></e>
+<e lm="barfulaire"><i>barfulair</i><par n="barfulair/e__adj"/></e>
+<e lm="buflaire"><i>buflair</i><par n="barfulair/e__adj"/></e>
+<e lm="enredaire"><i>enredair</i><par n="barfulair/e__adj"/></e>
+<e lm="perdulaire"><i>perdulair</i><par n="barfulair/e__adj"/></e>
+<e lm="charraire"><i>charrair</i><par n="barfulair/e__adj"/></e>
+<e lm="potraire"><i>potrair</i><par n="barfulair/e__adj"/></e>
+<e lm="algabenaire"><i>algabenair</i><par n="barfulair/e__adj"/></e>
 
 <e r="RL" lm="muito activo"><par n="/muito__var"/><i>activ</i><par n="/o_superlativo__adj"/></e>
 <e r="RL" lm="muito amable"><par n="/muito__var"/><i>amable</i><par n="/_superlativo__adj"/></e>
@@ -13104,6 +13125,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e r="RL" lm="muito vivaz"><par n="/muito__var"/><i>vivaz</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito voraz"><par n="/muito__var"/><i>voraz</i><par n="/_superlativo__adj"/></e>
 <e r="RL" lm="muito estimau"><par n="/muito__var"/><i>estima</i><par n="/u_superlativo__adj"/></e>
+
 
     <!-- ******************************
           group adj_adv
@@ -18257,14 +18279,14 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="albero">          <i>alb</i><par n="plant/ero__n"/></e>
 <e lm="alba">            <i>alba</i><par n="luenga__n"/></e>
 <e lm="albaca">          <i>albaca</i><par n="luenga__n"/></e>
-<e lm="albeitar">        <i>albeitar</i><par n="pelaire__n"/></e>
+<e lm="albeitar">        <i>albeitar</i><par n="albeitar__n"/></e>
 <e lm="alberche">        <i>alberche</i><par n="libro__n"/></e>
 <e lm="alberchena">      <i>alberchena</i><par n="luenga__n"/></e>
 <e r="LR" lm="alberche"> <p><l>alberge</l>   <r>alberche</r></p><par n="libro__n"/></e>
 <e r="LR" lm="alberche"> <p><l>alberje</l>   <r>alberche</r></p><par n="libro__n"/></e>
 <e r="LR" lm="alvertencia"><p><l>albertenzia</l><r>alvertencia</r></p><par n="luenga__n"/></e>
 <e lm="albufera">        <i>albufera</i><par n="luenga__n"/></e>
-<e r="LR" lm="albeitar"> <p><l>albéitar</l>  <r>albeitar</r></p><par n="pelaire__n"/></e>
+<e r="LR" lm="albeitar"> <p><l>albéitar</l>  <r>albeitar</r></p><par n="albeitar__n"/></e>
 <e lm="alcacia">         <i>alcacia</i><par n="luenga__n"/></e>
 <e lm="alcalde">         <i>alcalde</i><par n="alcalde__n"/></e>
 <e r="LR" lm="adchectivo"><p><l>alcheti</l>  <r>adchecti</r></p><par n="obchecti/vo__n"/></e>
@@ -19134,7 +19156,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="capitán">         <i>capit</i><par n="chirm/án__n"/></e>
 <e lm="capitación" a="prompsit2uoc"><i>capita</i><par n="actua/ción__n"/></e>
 <e lm="capital">         <i>capital</i><par n="libro__n"/></e>
-<e lm="capital">         <i>capital</i><par n="pelaire__n"/></e>
+<e lm="capital">         <i>capital</i><par n="albeitar__n"/></e>
 <e lm="capital">         <i>capital</i><par n="luenga__n"/></e>
 <e lm="capitalidat">     <i>capitalid</i><par n="privacid/at__n"/></e>
 <e lm="capitalismo">     <i>capitalismo</i><par n="libro__n"/></e>
@@ -19369,7 +19391,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="chitán">          <i>chit</i><par n="chirm/án__n"/></e>
 <e r="LR" lm="choventut"><p><l>chobent</l>   <r>chovent</r></p><par n="amplit/ut__n"/></e>
 <e lm="chodigo">         <i>chodig</i><par n="amig/o__n"/></e>
-<e lm="chofer">          <i>chofer</i><par n="pelaire__n"/></e>
+<e lm="chofer">          <i>chofer</i><par n="albeitar__n"/></e>
 <e lm="chornada">        <i>chorna</i><par n="vega/da__n"/></e>
 <e lm="chornalero">      <i>chornal</i><par n="vaqu/ero__n"/></e>
 <e lm="chorrupada">      <i>chorrupa</i><par n="vega/da__n"/></e>
@@ -19422,7 +19444,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="chustificación">  <i>chustifica</i><par n="actua/ción__n"/></e>
 <e r="LR" lm="choventut"><p><l>chuvent</l>   <r>chovent</r></p><par n="amplit/ut__n"/></e>
 <e lm="chuxtaposición" a="prompsit2adn"><i>chuxtaposi</i><par n="actua/ción__n"/></e>
-<e r="LR" lm="chofer">   <p><l>chófer</l>    <r>chofer</r></p><par n="pelaire__n"/></e>
+<e r="LR" lm="chofer">   <p><l>chófer</l>    <r>chofer</r></p><par n="albeitar__n"/></e>
 <e lm="cibada">          <i>cibada</i><par n="luenga__n"/></e>
 <e lm="cibercafé">       <i>cibercafé</i><par n="libro__n"/></e>
 <e lm="ciberterrorista"> <i>ciberterrorista</i><par n="accionista__n"/></e>
@@ -20807,7 +20829,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="esclavitut">      <i>esclavit</i><par n="amplit/ut__n"/></e>
 <e r="LR" lm="exclusividat"><p><l>esclusivid</l><r>exclusivid</r></p><par n="privacid/at__n"/></e>
 <e lm="escobador">       <i>escobador</i><par n="treballador__n"/></e>
-<e lm="escobaire">       <i>escobaire</i><par n="pelaire__n"/></e> <!-- * -->
+<e lm="escobaire">       <i>escobair</i><par n="pelair/e__n"/></e> <!-- * -->
 <e lm="escolarización">  <i>escolariza</i><par n="actua/ción__n"/></e>
 <e lm="escolta">         <i>escolta</i><par n="accionista__n"/></e>
 <e lm="escomienzo">      <i>escomienzo</i><par n="libro__n"/></e>
@@ -23149,7 +23171,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="peix">            <i>peix</i><par n="país__n"/></e>
 <e lm="peixera">         <i>peixera</i><par n="luenga__n"/></e>
 <e r="LR" lm="pel">      <p><l>pel</l>       <r>pelo</r></p><par n="libro__n"/></e>
-<e lm="pelaire">         <i>pelaire</i><par n="pelaire__n"/></e>
+<e lm="pelaire">         <i>pelair</i><par n="pelair/e__n"/></e>
 <e lm="pelegrino">       <i>pelegr</i><par n="palest/ino__n"/></e>
 <e lm="pelegrinación">   <i>pelegrina</i><par n="actua/ción__n"/></e>
 <e lm="pelicla">         <i>pelicla</i><par n="luenga__n"/></e>
@@ -24170,7 +24192,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="secesión" a="prompsit2adn"><i>secesi</i><par n="divisi/ón__n"/></e>
 <e lm="secesionista">    <i>secesionista</i><par n="accionista__n"/></e>
 <e lm="secreción" a=" alseoane@gmail.com"><i>secre</i><par n="actua/ción__n"/></e>
-<e r="LR" lm="secretaire"><i>secretaire</i><par n="pelaire__n"/></e>
+<e r="LR" lm="secretaire"><i>secretair</i><par n="pelair/e__n"/></e>
 <e lm="secretario">      <i>secretari</i><par n="amig/o__n"/></e>
 <e lm="secretaría">      <i>secretaría</i><par n="luenga__n"/></e>
 <e lm="sector">          <i>sector</i><par n="libro__n"/></e>
@@ -24349,8 +24371,8 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
 <e lm="sol">             <i>sol</i><par n="libro__n"/></e>
 <e lm="solar">           <i>solar</i><par n="libro__n"/></e>
 <e lm="soldadura">       <i>soldadura</i><par n="luenga__n"/></e>
-<e r="LR" lm="soldau">   <p><l>soldato</l>   <r>soldau</r></p><par n="pelaire__n"/></e>
-<e lm="soldau">          <i>soldau</i><par n="pelaire__n"/></e>
+<e r="LR" lm="soldau">   <p><l>soldato</l>   <r>soldau</r></p><par n="albeitar__n"/></e>
+<e lm="soldau">          <i>soldau</i><par n="albeitar__n"/></e>
 <e lm="soledat">         <i>soled</i><par n="privacid/at__n"/></e>
 <e lm="solemnidat">      <i>solemnid</i><par n="privacid/at__n"/></e>
 <e lm="soleta">          <i>soleta</i><par n="luenga__n"/></e>
@@ -58937,6 +58959,7 @@ En nombres propios, fer servir los paradigmas "detarticle_m_sg_np"  -->
       ****************************** -->
 <e lm="a que">           <p><l>a<b/>que</l>  <r>a<b/>que<s n="cnjsub"/></r></p></e>
 <e lm="tot">             <i>to</i><par n="to/t__predet"/></e>
+
 
   </section>
   <section id="apostrophes" type="postblank">
