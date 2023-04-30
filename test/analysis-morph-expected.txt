@@ -1,4 +1,4 @@
-[AEaN1Up3JJkI#0] ^dan/dar<vblex><pri><p3><pl>$ ^el/o<det><def><m><sg>/lo<prn><pro><p3><nt>/lo<prn><pro><p3><m><sg>/ell<prn><tn><p3><m><sg>$ ^risrrán/*risrrán$ ^dʼ/de<pr>$
+[AEaN1Up3JJkI#0] ^dan/dar<vblex><pri><p3><pl>$ ^el/o<det><def><m><sg>/lo<prn><pro><p3><nt>/lo<prn><pro><p3><m><sg>/él<prn><tn><p3><m><sg>$ ^risrrán/*risrrán$ ^dʼ/de<pr>$
 [/AEaN1Up3JJkI]
 [Hnw0n658Hnc2#0] ^sʼ/se<prn><pro><ref><p3><mf><sp>$
 [/Hnw0n658Hnc2]
