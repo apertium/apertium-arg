@@ -89,7 +89,7 @@ SET Verb_Adv = Verb OR Adv ;
 SET Cnj_Rel = CnjCoo OR CnjSub OR CnjAdv OR Rel ;
 SET Cnj_Rel_End = >>> OR CnjCoo OR CnjSub OR CnjAdv OR Rel ;
 
-SET Trencat = ("tercio") OR ("quarto") OR ("cinqueno") OR ("quinto") OR ("seiseno") OR ("seteno") OR ("uiteno") OR ("noveno") ;
+SET Trencat = ("tercio") OR ("cuarto") OR ("cinqueno") OR ("quinto") OR ("seiseno") OR ("seteno") OR ("uiteno") OR ("noveno") ;
 
 SET Barrera_Final_SN = <<< OR Prep OR Det OR CnjSub OR CnjAdv OR Verb OR Rel OR Pro ;	# Verb és perillós per la ambigüitat, però en general, prolífic
 SET Barrera_Final_Estrict_SN = <<< OR Prep OR Det OR CnjSub OR CnjAdv OR Rel OR Pro ;
@@ -148,8 +148,8 @@ SET EntendimientoWords = ("falta") OR ("Falta") OR ("buscar") OR ("Buscar") OR (
 SECTION
 
 #Provisional, to avoid una -> uneixi
-SELECT:una Det IF (0 ("<una>"i));  
-SELECT:unas Det IF (0 ("<unas>"i));
+REMOVE:una Vblex IF (0 ("<una>"i));  
+REMOVE:unas Vblex IF (0 ("<unas>"i));
 
 REMOVE:r_cuanto_vblex_1 N IF (0 Vblex) (0 (n f)) (-1 AdjItgM) (-1 PrnItgM);
 SELECT:r_deber_vbmod_1 Vbmod IF (0 Deber) (1 (vblex inf)) (NOT 1 N);
@@ -176,11 +176,12 @@ SELECT:este_1 Det IF (0 ("Este") + $$MascSg) (-1 >>>) (1 N + $$MascSg) ;
 	## cogieron tres rehenes.
 
 # se referirán, desde entonces, a los indígenas del Magreb como pueblos líbicos, aunque
-REMOVE:r_verb_1 Vblex (0 Vblex + Pers) (*1C Vblex + Pers BARRIER Cnj_Rel) ;
-# SELECT:r_verb_2 Vblex (0 Vblex + Pers) (-1C Pro) ; No: podría recurrir a ellas para hacer
+REMOVE:r_verb_1 Vblex (0 Vblex + Pers) (1C Vblex) ;
+SELECT:r_verb_2 Vblex (0 Vblex + Pers) (-1C Pro) ; 
+#No: podría recurrir a ellas para hacer
 
 # prn + verbo/nombre
-SELECT:prn_vb_n Vblex IF (0 Vblex) (0 N) (-1 PrnTnPrs) ;
+SELECT:prn_vb_n Vblex IF (0 Vblex) (0 N) (-1C PrnTnPrs) ;
 
 # prep + verbo/nombre > nombre: (ej. transmite al vino, del anillo ciclista)
 SELECT:prep_VbN N IF (0 Vblex) (0 N) (-1/* Prep);
@@ -747,7 +748,7 @@ REMOVE:r_na_9_fp_fp A OR PP IF (-1 Det + $$FemPl) (0 Noun_Adj_PP + $$FemPl LINK 
 # REMOVE:r_na_20 A OR PP IF (-1 Barrera_Inicial_SN LINK NOT 0 N) (NOT -1 Limite_Barrera_Inicial_SN) (0 Noun_Adj_PP LINK 0 N OR NP) (1 Barrera_Final_SN) ;
 
 SELECT Prep IF (-1C N) (0 ("sobre")) (1 Det) ;
-	# diverses hipòtesis sobre l'aparició
+	# diversas hipotesis sobre l'aparición
 
 SELECT Det IF (-2C ("no")) (-1 Vblex) (0 ("garra")) (1C N) ;
 	# no leva garra identificación
@@ -757,6 +758,10 @@ SELECT Pron IF (-4 ("no")) (-3 ("en")) (-2 Vbmod) (-1 Inf) (0 ("garra")) ;
 SELECT Pron IF (-4 ("no")) (-2 Vbmod) (-3 ("en")) (-1 Inf) (0 ("garra")) ;
 	# no en puede levar garra
 
+SELECT N IF (-1 Det) (0 ("garra")) (1 PP OR A) ;
+	# una garra trencada
+	# una garra larga
+
 SELECT Pron IF (-2C ("no")) (-1 Vblex) (0 ("cosa")) (1C N) ;
 	# no fa cosa 
 
@@ -764,22 +769,18 @@ SELECT Pron IF (-3C ("no")) (-2 V) (-1 Vblex) (0 ("cosa")) (1C N) ;
 	# no ha feito cosa, no puede fer cosa
 
 SELECT Pron IF (-3C ("no")) (-2 Pron) (-1 Vblex) (0 ("cosa")) (1C N) ;
-	# no fa cosa 
+	# no'n fa cosa 
 
 SELECT Pron IF (-4C ("no")) (-3 Pron) (-2 V) (-1 Vblex) (0 ("cosa")) (1C N) ;
-	# no ha feito cosa, no puede fer cosa
-
-	
-SELECT N IF (-1 Det) (0 ("garra")) (1 PP OR A) ;
-	# una garra trencada
-	# una garra larga
+	# no'n ha feito cosa, no'n puede fer cosa
 
 SELECT PP IF (-1 Ser) (0 ("conoixiu")) ;
-	# són conegudes principalment a través de
+	# son conoixidas per...
 	
 SELECT PP IF (-1 ("mas")) (0 ("conoixiu")) ;
-	# l'aqüeducte antic més conegut
+	# la ilesia mas conoixida
 
+SELECT Vblex IF (0 ("charra")) (0 Vblex OR N) (NOT -1 Det) (NOT 1 A + Fem) ;
 SELECT Vblex IF (0 ("parla")) (0 Vblex OR N) (NOT -1 Det) (NOT 1 A + Fem) ;
 SELECT Vblex IF (0 ("fabla")) (0 Vblex OR N) (NOT -1 Det) (NOT 1 A + Fem) ;
 	# parla amb ell
@@ -799,9 +800,6 @@ SELECT Masc IF (0 ("final")) (-1 Prep) ;
 SELECT N IF (-2 ("un")) (-1 Trencat) (0 N + Pl OR A + Pl) ;
 SELECT N IF (-2 Num) (NOT -2 ("un")) (-1 Trencat) (0 N OR A) ;
 	# un terç estrangers, dos terços estrangers
-
-REMOVE Ger IF (0 ("bastant")) (1C A OR PP) ;
-	# models bastant generalitzats
 
 REMOVE N IF (0 ("sobretot")) (NOT 1 Det) ;
 

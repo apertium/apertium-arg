@@ -612,6 +612,63 @@
       </e>      
     </pardef>
 
+
+   <pardef n="-le">
+      <e>
+        <p>
+          <l>-la</l>
+          <r>-le-ne</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>-la</l>
+          <r>-le-ne</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>-lo</l>
+          <r>-le-ne</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>-los</l>
+          <r>-le-ne</r>
+        </p>
+      </e>      
+    </pardef>
+   <pardef n="-les">
+      <e>
+        <p>
+          <l>-la</l>
+          <r>-les-ne</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>-las</l>
+          <r>-les-ne</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>-lo</l>
+          <r>-les-ne</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>-los</l>
+          <r>-les-ne</r>
+        </p>
+      </e>      
+    </pardef>
+
+
+
+
     <pardef n="o">
       <e>
         <p>
@@ -1925,11 +1982,29 @@
       </e>
       <e>
         <p>
+          <l><a/>-les</l>
+          <r/>
+        </p>
+        <par n="-les"/>
+      </e>
+
+      <e>
+        <p>
+          <l><a/>-le</l>
+          <r/>
+        </p>
+        <par n="-le"/>
+      </e>
+      <e>
+        <p>
           <l><a/>les</l>
           <r/>
         </p>
         <par n="les"/>
       </e>
+
+
+
 <!--      
       <e>
         <p>

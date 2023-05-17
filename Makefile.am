@@ -11,6 +11,7 @@ TARGETS_COMMON =			\
 	$(LANG1).autogen.bin		\
 	$(LANG1).autogen.att.gz		\
 	$(LANG1).autopgen.bin		\
+	$(LANG1).prefs.rlx.bin		\
 	$(LANG1).rlx.bin
 
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
@@ -43,6 +44,11 @@ $(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 
 $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
 	cg-comp $< $@
+###############################################################################
+## Preferences
+###############################################################################
+$(LANG1).prefs.rlx.bin: $(BASENAME).$(LANG1).prefs.rlx
+	cg-comp $< $@
 
 ###############################################################################
 ## Distribution
@@ -52,6 +58,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix		\
 		$(BASENAME).$(LANG1).rlx	\
 		$(BASENAME).post-$(LANG1).dix	\
 		$(LANG1).prob			\
+		$(LANG1).preferences.xml	\
 		modes.xml
 
 ###############################################################################
