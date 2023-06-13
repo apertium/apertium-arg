@@ -74,6 +74,7 @@ apertium_arg_DATA=$(TARGETS_COMMON) $(LANG1).prob \
 	$(BASENAME).$(LANG1).dix \
 	$(BASENAME).$(LANG1).rlx \
 	$(BASENAME).post-$(LANG1).dix \
+	$(LANG1).preferences.xml \
 	$(BASENAME).$(LANG1).acx
 
 pkgconfigdir = $(prefix)/share/pkgconfig
